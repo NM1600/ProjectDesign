@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{652B53DD-770D-4F20-9C1A-DE6D13DA43B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectDesign</RootNamespace>
+    <AssemblyName>ProjectDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ShutterPrism.MVC.FontAwesome, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ShutterPrism.MVC.FontAwsome.1.0.1\lib\ShutterPrism.MVC.FontAwesome.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="7up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7up.Designer.cs">
+      <DependentUpon>7up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUsers.Designer.cs">
+      <DependentUpon>AddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUser.Designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeUI.Designer.cs">
+      <DependentUpon>HomeUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginUI.Designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsUI.Designer.cs">
+      <DependentUpon>ProductsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileUI.Designer.cs">
+      <DependentUpon>ProfileUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportsUI.Designer.cs">
+      <DependentUpon>ReportsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesUI.Designer.cs">
+      <DependentUpon>SalesUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsUI.Designer.cs">
+      <DependentUpon>SettingsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinApp.cs" />
+    <EmbeddedResource Include="7up.resx">
+      <DependentUpon>7up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUsers.resx">
+      <DependentUpon>AddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUser.resx">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUI.resx">
+      <DependentUpon>HomeUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsUI.resx">
+      <DependentUpon>ProductsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileUI.resx">
+      <DependentUpon>ProfileUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportsUI.resx">
+      <DependentUpon>ReportsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesUI.resx">
+      <DependentUpon>SalesUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Content\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPhone wallpaper ombre purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU BTTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sue Refreshments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo display2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create user button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product ICON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transactions iCOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier iCOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account iCOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create user button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account iCOn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile iCOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo display21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account iCOn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password iCOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White and Grey Gradient Background - pngmagic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Insanity Defense %28Hardcover%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\7upCaseLogo %281%29.png" />
+    <None Include="Resources\7upCaseLogo.png" />
+    <None Include="Resources\juicyLemonLogo.png" />
+    <None Include="Resources\RCLogo.png" />
+    <None Include="Resources\mtDewLogo.png" />
+    <None Include="Resources\stingLogo.png" />
+    <None Include="Resources\cobraLogo1.png" />
+    <None Include="Resources\cobraLogo.png" />
+    <None Include="Resources\bglogo.png" />
+    <None Include="Resources\7upLogo.png" />
+    <None Include="Resources\royalLogo.png" />
+    <None Include="Resources\spriteLogo.png" />
+    <None Include="Resources\pepsiLogo.png" />
+    <None Include="Resources\cocaColaLogo.png" />
+    <None Include="Resources\Create BUTTON.png" />
+    <None Include="Resources\Sodas Sticker.png" />
+    <None Include="Resources\Create User Sticker.png" />
+    <None Include="Resources\user 1.png" />
+    <None Include="Resources\user  %281%29.png" />
+    <None Include="Resources\Add icon1.png" />
+    <None Include="Resources\Add icon.png" />
+    <None Include="Resources\user .png" />
+    <None Include="Resources\finalHomeUI %282%29.png" />
+    <None Include="Resources\finalHomeUI %281%292.png" />
+    <None Include="Resources\pepsiCokeLogo.png" />
+    <None Include="Resources\finalHomeUI1.png" />
+    <None Include="Resources\finalHomeUI %281%291.png" />
+    <None Include="Resources\addUserLogo1.png" />
+    <None Include="Resources\finalHomeUI %281%29.png" />
+    <None Include="Resources\finalHomeUI.png" />
+    <None Include="Resources\b.png" />
+    <None Include="Resources\homeUI2.png" />
+    <None Include="Resources\CreateBg.png" />
+    <None Include="Resources\createuserLogo2.png" />
+    <None Include="Resources\createuserLogo1.png" />
+    <None Include="Resources\createuserLogo.png" />
+    <None Include="Resources\addUserLogo.png" />
+    <None Include="Resources\homeUI1.png" />
+    <None Include="Resources\homeUI.png" />
+    <None Include="Resources\gray background 1.png" />
+    <None Include="Resources\gray background .png" />
+    <None Include="Resources\cover homepage.png" />
+    <None Include="Resources\White and Grey Gradient Background - pngmagic1.jpg" />
+    <None Include="Resources\Application list for Desktop app by gleb.png" />
+    <None Include="Resources\Cover photo Sueref %281%29.png" />
+    <None Include="Resources\Cover photo Sueref.png" />
+    <None Include="Resources\reports icon small1.png" />
+    <None Include="Resources\sales samll icon.png" />
+    <None Include="Resources\product iconss.png" />
+    <None Include="Resources\Profilesmall3.png" />
+    <None Include="Resources\Profilesmall %281%291.png" />
+    <None Include="Resources\create user small3.png" />
+    <None Include="Resources\SETTINGS SMALL2.png" />
+    <None Include="Resources\home small iCOn %281%2921.png" />
+    <None Include="Resources\SETTINGS SMALL1.png" />
+    <None Include="Resources\Profilesmall2.png" />
+    <None Include="Resources\Profilesmall %281%29.png" />
+    <None Include="Resources\Profilesmall1.png" />
+    <None Include="Resources\Profilesmall.png" />
+    <None Include="Resources\create user small2.png" />
+    <None Include="Resources\create user small1.png" />
+    <None Include="Resources\create user small.png" />
+    <None Include="Resources\SETTINGS SMALL.png" />
+    <None Include="Resources\home small iCOn %281%292.png" />
+    <None Include="Resources\home small iCOn.png" />
+    <None Include="Resources\login iCOn.png" />
+    <None Include="Resources\The Insanity Defense %28Hardcover%291.jpg" />
+    <None Include="Resources\sign iCOn %281%29.png" />
+    <None Include="Resources\sign iCOn.png" />
+    <None Include="Resources\profile iCOn %281%29.png" />
+    <None Include="Resources\passwords iCOn.png" />
+    <None Include="Resources\usernme iCOn %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
