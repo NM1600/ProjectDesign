@@ -91,6 +91,12 @@
     <Compile Include="MainUI.Designer.cs">
       <DependentUpon>MainUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="NestleGwapa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NestleGwapa.Designer.cs">
+      <DependentUpon>NestleGwapa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <SubType>Form</SubType>
     </Compile>
