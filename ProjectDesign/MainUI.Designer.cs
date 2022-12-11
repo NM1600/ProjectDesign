@@ -43,6 +43,7 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnProducts = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.btnSales = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -58,7 +59,7 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnSignout = new System.Windows.Forms.Button();
-            this.btnSales = new System.Windows.Forms.Button();
+            this.reportsbtn = new System.Windows.Forms.Button();
             this.siderbarpanel.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -67,7 +68,7 @@
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel22.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -103,7 +104,7 @@
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(200, 1061);
+            this.siderbarpanel.Size = new System.Drawing.Size(50, 1061);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -237,7 +238,7 @@
             this.btnProducts.ForeColor = System.Drawing.Color.White;
             this.btnProducts.Image = global::ProjectDesign.Properties.Resources.sales_samll_icon;
             this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducts.Location = new System.Drawing.Point(-42, -12);
+            this.btnProducts.Location = new System.Drawing.Point(-39, -12);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Size = new System.Drawing.Size(324, 53);
             this.btnProducts.TabIndex = 3;
@@ -249,11 +250,30 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Transparent;
+            this.panel9.Controls.Add(this.reportsbtn);
             this.panel9.Controls.Add(this.btnSales);
             this.panel9.Location = new System.Drawing.Point(3, 253);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(273, 38);
             this.panel9.TabIndex = 5;
+            // 
+            // btnSales
+            // 
+            this.btnSales.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
+            this.btnSales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSales.ForeColor = System.Drawing.Color.White;
+            this.btnSales.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
+            this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSales.Location = new System.Drawing.Point(-37, -4);
+            this.btnSales.Name = "btnSales";
+            this.btnSales.Size = new System.Drawing.Size(321, 46);
+            this.btnSales.TabIndex = 3;
+            this.btnSales.Text = "                     Reports";
+            this.btnSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSales.UseVisualStyleBackColor = true;
+            this.btnSales.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // panel5
             // 
@@ -354,6 +374,7 @@
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.Transparent;
+            this.panel22.Controls.Add(this.btnSignout);
             this.panel22.Location = new System.Drawing.Point(3, 961);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(189, 46);
@@ -362,7 +383,6 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.btnSignout);
             this.panel4.Location = new System.Drawing.Point(3, 1013);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(273, 52);
@@ -378,7 +398,7 @@
             this.btnSignout.ForeColor = System.Drawing.Color.White;
             this.btnSignout.Image = global::ProjectDesign.Properties.Resources.b;
             this.btnSignout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSignout.Location = new System.Drawing.Point(-45, -16);
+            this.btnSignout.Location = new System.Drawing.Point(-43, -14);
             this.btnSignout.Name = "btnSignout";
             this.btnSignout.Size = new System.Drawing.Size(316, 74);
             this.btnSignout.TabIndex = 3;
@@ -386,23 +406,23 @@
             this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignout.UseVisualStyleBackColor = false;
             // 
-            // btnSales
+            // reportsbtn
             // 
-            this.btnSales.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
-            this.btnSales.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSales.ForeColor = System.Drawing.Color.White;
-            this.btnSales.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
-            this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSales.Location = new System.Drawing.Point(-37, -4);
-            this.btnSales.Name = "btnSales";
-            this.btnSales.Size = new System.Drawing.Size(321, 46);
-            this.btnSales.TabIndex = 3;
-            this.btnSales.Text = "                     Reports";
-            this.btnSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSales.UseVisualStyleBackColor = true;
-            this.btnSales.Click += new System.EventHandler(this.btnReports_Click);
+            this.reportsbtn.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
+            this.reportsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.reportsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.reportsbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reportsbtn.ForeColor = System.Drawing.Color.White;
+            this.reportsbtn.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
+            this.reportsbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportsbtn.Location = new System.Drawing.Point(-30, -6);
+            this.reportsbtn.Name = "reportsbtn";
+            this.reportsbtn.Size = new System.Drawing.Size(321, 46);
+            this.reportsbtn.TabIndex = 4;
+            this.reportsbtn.Text = "                     Reports";
+            this.reportsbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportsbtn.UseVisualStyleBackColor = true;
+            this.reportsbtn.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // MainUI
             // 
@@ -429,7 +449,7 @@
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
+            this.panel22.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -470,6 +490,7 @@
         private System.Windows.Forms.Button btnSignout;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Button btnSales;
+        private System.Windows.Forms.Button reportsbtn;
     }
 }
 
