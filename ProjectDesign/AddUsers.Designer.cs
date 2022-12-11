@@ -36,15 +36,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboPosition = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnConfirm = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cboSex = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CreateUserSticker = new System.Windows.Forms.PictureBox();
+            this.cboUserType = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CreateUserSticker)).BeginInit();
             this.SuspendLayout();
@@ -125,17 +127,17 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Password:";
             // 
-            // comboBox1
+            // cboPosition
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboPosition.FormattingEnabled = true;
+            this.cboPosition.Items.AddRange(new object[] {
             "Assistant Store Manager ",
             "Cashier",
             "Stock Clerk"});
-            this.comboBox1.Location = new System.Drawing.Point(142, 284);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(248, 21);
-            this.comboBox1.TabIndex = 10;
+            this.cboPosition.Location = new System.Drawing.Point(142, 284);
+            this.cboPosition.Name = "cboPosition";
+            this.cboPosition.Size = new System.Drawing.Size(248, 21);
+            this.cboPosition.TabIndex = 10;
             // 
             // label5
             // 
@@ -154,20 +156,21 @@
             this.btnConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.Color.White;
-            this.btnConfirm.Location = new System.Drawing.Point(208, 321);
+            this.btnConfirm.Location = new System.Drawing.Point(210, 355);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(118, 38);
             this.btnConfirm.TabIndex = 12;
-            this.btnConfirm.Text = "Confirm";
+            this.btnConfirm.Text = "Save";
             this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
-            // textBox5
+            // txtAge
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(447, 156);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(90, 26);
-            this.textBox5.TabIndex = 13;
+            this.txtAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAge.Location = new System.Drawing.Point(447, 156);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(90, 26);
+            this.txtAge.TabIndex = 13;
             // 
             // label6
             // 
@@ -180,17 +183,17 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Age:";
             // 
-            // comboBox2
+            // cboSex
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboSex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboSex.FormattingEnabled = true;
+            this.cboSex.Items.AddRange(new object[] {
             "Female ",
             "Male"});
-            this.comboBox2.Location = new System.Drawing.Point(447, 188);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(90, 28);
-            this.comboBox2.TabIndex = 15;
+            this.cboSex.Location = new System.Drawing.Point(447, 188);
+            this.cboSex.Name = "cboSex";
+            this.cboSex.Size = new System.Drawing.Size(90, 28);
+            this.cboSex.TabIndex = 15;
             // 
             // label7
             // 
@@ -225,19 +228,43 @@
             this.CreateUserSticker.TabIndex = 1;
             this.CreateUserSticker.TabStop = false;
             // 
+            // cboUserType
+            // 
+            this.cboUserType.FormattingEnabled = true;
+            this.cboUserType.Items.AddRange(new object[] {
+            "admin",
+            "user"});
+            this.cboUserType.Location = new System.Drawing.Point(142, 311);
+            this.cboUserType.Name = "cboUserType";
+            this.cboUserType.Size = new System.Drawing.Size(248, 21);
+            this.cboUserType.TabIndex = 10;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.label8.Location = new System.Drawing.Point(19, 309);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 20);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "UserType:";
+            // 
             // AddUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(580, 387);
+            this.ClientSize = new System.Drawing.Size(580, 416);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboSex);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtAge);
             this.Controls.Add(this.btnConfirm);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboUserType);
+            this.Controls.Add(this.cboPosition);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -271,12 +298,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboPosition;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnConfirm;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cboSex;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cboUserType;
+        private System.Windows.Forms.Label label8;
     }
 }

@@ -67,6 +67,8 @@
     <Compile Include="AddUsers.Designer.cs">
       <DependentUpon>AddUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\DBServer.cs" />
+    <Compile Include="Classes\Users.cs" />
     <Compile Include="CreateUser.cs">
       <SubType>Form</SubType>
     </Compile>
