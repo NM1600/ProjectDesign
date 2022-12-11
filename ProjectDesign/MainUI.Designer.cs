@@ -44,8 +44,6 @@
             this.btnProducts = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnSales = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnSignout = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -55,6 +53,12 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.btnSignout = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
             this.siderbarpanel.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,13 +93,17 @@
             this.siderbarpanel.Controls.Add(this.panel17);
             this.siderbarpanel.Controls.Add(this.panel12);
             this.siderbarpanel.Controls.Add(this.panel18);
+            this.siderbarpanel.Controls.Add(this.panel19);
+            this.siderbarpanel.Controls.Add(this.panel20);
+            this.siderbarpanel.Controls.Add(this.panel21);
+            this.siderbarpanel.Controls.Add(this.panel22);
             this.siderbarpanel.Controls.Add(this.panel4);
             this.siderbarpanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.siderbarpanel.Location = new System.Drawing.Point(0, 0);
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(200, 880);
+            this.siderbarpanel.Size = new System.Drawing.Size(200, 1061);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -124,11 +132,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(62, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 30);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menu";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -147,7 +155,7 @@
             this.HomeButton.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
             this.HomeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.HomeButton.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HomeButton.ForeColor = System.Drawing.Color.White;
             this.HomeButton.Image = global::ProjectDesign.Properties.Resources.home_small_iCOn__1_21;
             this.HomeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -173,7 +181,7 @@
             // 
             this.CreateUserBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CreateUserBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CreateUserBtn.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateUserBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateUserBtn.ForeColor = System.Drawing.Color.White;
             this.CreateUserBtn.Image = global::ProjectDesign.Properties.Resources.create_user_small3;
             this.CreateUserBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -199,7 +207,7 @@
             // 
             this.btnCreateUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCreateUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCreateUser.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateUser.ForeColor = System.Drawing.Color.White;
             this.btnCreateUser.Image = global::ProjectDesign.Properties.Resources.product_iconss;
             this.btnCreateUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -225,7 +233,7 @@
             // 
             this.btnProducts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnProducts.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProducts.ForeColor = System.Drawing.Color.White;
             this.btnProducts.Image = global::ProjectDesign.Properties.Resources.sales_samll_icon;
             this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -252,7 +260,7 @@
             this.btnSales.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
             this.btnSales.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSales.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSales.ForeColor = System.Drawing.Color.White;
             this.btnSales.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
             this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -264,32 +272,6 @@
             this.btnSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSales.UseVisualStyleBackColor = true;
             this.btnSales.Click += new System.EventHandler(this.btnReports_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.btnSignout);
-            this.panel4.Location = new System.Drawing.Point(3, 782);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(273, 38);
-            this.panel4.TabIndex = 7;
-            // 
-            // btnSignout
-            // 
-            this.btnSignout.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
-            this.btnSignout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSignout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSignout.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignout.ForeColor = System.Drawing.Color.White;
-            this.btnSignout.Image = global::ProjectDesign.Properties.Resources.b;
-            this.btnSignout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSignout.Location = new System.Drawing.Point(-40, -2);
-            this.btnSignout.Name = "btnSignout";
-            this.btnSignout.Size = new System.Drawing.Size(265, 43);
-            this.btnSignout.TabIndex = 3;
-            this.btnSignout.Text = "                     Sign Out";
-            this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSignout.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -360,15 +342,74 @@
             this.panel18.BackColor = System.Drawing.Color.Transparent;
             this.panel18.Location = new System.Drawing.Point(3, 753);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(189, 23);
+            this.panel18.Size = new System.Drawing.Size(189, 46);
             this.panel18.TabIndex = 7;
+            // 
+            // btnSignout
+            // 
+            this.btnSignout.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
+            this.btnSignout.BackColor = System.Drawing.Color.Transparent;
+            this.btnSignout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSignout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignout.ForeColor = System.Drawing.Color.White;
+            this.btnSignout.Image = global::ProjectDesign.Properties.Resources.b;
+            this.btnSignout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSignout.Location = new System.Drawing.Point(-45, -16);
+            this.btnSignout.Name = "btnSignout";
+            this.btnSignout.Size = new System.Drawing.Size(316, 74);
+            this.btnSignout.TabIndex = 3;
+            this.btnSignout.Text = "                     Sign Out";
+            this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSignout.UseVisualStyleBackColor = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.btnSignout);
+            this.panel4.Location = new System.Drawing.Point(3, 1013);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(273, 52);
+            this.panel4.TabIndex = 7;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.Transparent;
+            this.panel19.Location = new System.Drawing.Point(3, 805);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(189, 46);
+            this.panel19.TabIndex = 8;
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.Color.Transparent;
+            this.panel20.Location = new System.Drawing.Point(3, 857);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(189, 46);
+            this.panel20.TabIndex = 8;
+            // 
+            // panel21
+            // 
+            this.panel21.BackColor = System.Drawing.Color.Transparent;
+            this.panel21.Location = new System.Drawing.Point(3, 909);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(189, 46);
+            this.panel21.TabIndex = 8;
+            // 
+            // panel22
+            // 
+            this.panel22.BackColor = System.Drawing.Color.Transparent;
+            this.panel22.Location = new System.Drawing.Point(3, 961);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(189, 46);
+            this.panel22.TabIndex = 9;
             // 
             // MainUI
             // 
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.finalHomeUI__1_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(925, 880);
+            this.ClientSize = new System.Drawing.Size(925, 1061);
             this.Controls.Add(this.siderbarpanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -414,8 +455,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Button HomeButton;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button btnSignout;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel13;
@@ -425,6 +464,12 @@
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnSignout;
+        private System.Windows.Forms.Panel panel22;
     }
 }
 
