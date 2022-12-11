@@ -47,6 +47,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.label4);
@@ -201,6 +202,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "AddProduct";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddProduct";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
