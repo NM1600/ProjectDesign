@@ -46,6 +46,15 @@
             this.btnSales = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnSignout = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
             this.siderbarpanel.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -71,13 +80,22 @@
             this.siderbarpanel.Controls.Add(this.panel7);
             this.siderbarpanel.Controls.Add(this.panel8);
             this.siderbarpanel.Controls.Add(this.panel9);
+            this.siderbarpanel.Controls.Add(this.panel5);
+            this.siderbarpanel.Controls.Add(this.panel10);
+            this.siderbarpanel.Controls.Add(this.panel13);
+            this.siderbarpanel.Controls.Add(this.panel14);
+            this.siderbarpanel.Controls.Add(this.panel15);
+            this.siderbarpanel.Controls.Add(this.panel16);
+            this.siderbarpanel.Controls.Add(this.panel17);
+            this.siderbarpanel.Controls.Add(this.panel12);
+            this.siderbarpanel.Controls.Add(this.panel18);
             this.siderbarpanel.Controls.Add(this.panel4);
             this.siderbarpanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.siderbarpanel.Location = new System.Drawing.Point(0, 0);
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(50, 518);
+            this.siderbarpanel.Size = new System.Drawing.Size(200, 880);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -131,13 +149,13 @@
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.HomeButton.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HomeButton.ForeColor = System.Drawing.Color.White;
-            this.HomeButton.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
+            this.HomeButton.Image = global::ProjectDesign.Properties.Resources.home_small_iCOn__1_21;
             this.HomeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.HomeButton.Location = new System.Drawing.Point(-28, -1);
+            this.HomeButton.Location = new System.Drawing.Point(-21, -1);
             this.HomeButton.Name = "HomeButton";
             this.HomeButton.Size = new System.Drawing.Size(304, 43);
             this.HomeButton.TabIndex = 3;
-            this.HomeButton.Text = "                    Home";
+            this.HomeButton.Text = "                  Home";
             this.HomeButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.HomeButton.UseVisualStyleBackColor = true;
             this.HomeButton.Click += new System.EventHandler(this.button2_Click);
@@ -209,7 +227,7 @@
             this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProducts.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProducts.ForeColor = System.Drawing.Color.White;
-            this.btnProducts.Image = global::ProjectDesign.Properties.Resources.product_iconss;
+            this.btnProducts.Image = global::ProjectDesign.Properties.Resources.sales_samll_icon;
             this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProducts.Location = new System.Drawing.Point(-42, -12);
             this.btnProducts.Name = "btnProducts";
@@ -236,7 +254,7 @@
             this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSales.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSales.ForeColor = System.Drawing.Color.White;
-            this.btnSales.Image = global::ProjectDesign.Properties.Resources.sales_samll_icon;
+            this.btnSales.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
             this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSales.Location = new System.Drawing.Point(-37, -4);
             this.btnSales.Name = "btnSales";
@@ -251,7 +269,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.Controls.Add(this.btnSignout);
-            this.panel4.Location = new System.Drawing.Point(3, 297);
+            this.panel4.Location = new System.Drawing.Point(3, 782);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(273, 38);
             this.panel4.TabIndex = 7;
@@ -273,12 +291,84 @@
             this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignout.UseVisualStyleBackColor = true;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Location = new System.Drawing.Point(3, 297);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(189, 51);
+            this.panel5.TabIndex = 3;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Transparent;
+            this.panel10.Location = new System.Drawing.Point(3, 354);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(189, 51);
+            this.panel10.TabIndex = 4;
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.Transparent;
+            this.panel13.Location = new System.Drawing.Point(3, 411);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(189, 51);
+            this.panel13.TabIndex = 5;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.Transparent;
+            this.panel14.Location = new System.Drawing.Point(3, 468);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(189, 51);
+            this.panel14.TabIndex = 5;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.Transparent;
+            this.panel15.Location = new System.Drawing.Point(3, 525);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(189, 51);
+            this.panel15.TabIndex = 5;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.Transparent;
+            this.panel16.Location = new System.Drawing.Point(3, 582);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(189, 51);
+            this.panel16.TabIndex = 6;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.Transparent;
+            this.panel17.Location = new System.Drawing.Point(3, 639);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(189, 51);
+            this.panel17.TabIndex = 6;
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.Transparent;
+            this.panel12.Location = new System.Drawing.Point(3, 696);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(189, 51);
+            this.panel12.TabIndex = 7;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.Transparent;
+            this.panel18.Location = new System.Drawing.Point(3, 753);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(189, 23);
+            this.panel18.TabIndex = 7;
+            // 
             // MainUI
             // 
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.finalHomeUI__1_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(925, 518);
+            this.ClientSize = new System.Drawing.Size(925, 880);
             this.Controls.Add(this.siderbarpanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -326,6 +416,15 @@
         private System.Windows.Forms.Button HomeButton;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnSignout;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel18;
     }
 }
 

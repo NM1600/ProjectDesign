@@ -923,6 +923,16 @@ namespace ProjectDesign.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap spriteMismoLogo {
+            get {
+                object obj = ResourceManager.GetObject("spriteMismoLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap stingLogo {
             get {
                 object obj = ResourceManager.GetObject("stingLogo", resourceCulture);
