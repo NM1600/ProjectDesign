@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-            this.CreateNewUserLabel = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnAddUser = new System.Windows.Forms.Button();
+            this.CreateNewUserLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -57,26 +57,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1345, 62);
             this.panel4.TabIndex = 3;
-            // 
-            // CreateNewUserLabel
-            // 
-            this.CreateNewUserLabel.AutoSize = true;
-            this.CreateNewUserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateNewUserLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(101)))), ((int)(((byte)(139)))));
-            this.CreateNewUserLabel.Location = new System.Drawing.Point(51, 32);
-            this.CreateNewUserLabel.Name = "CreateNewUserLabel";
-            this.CreateNewUserLabel.Size = new System.Drawing.Size(145, 20);
-            this.CreateNewUserLabel.TabIndex = 0;
-            this.CreateNewUserLabel.Text = "Create New User";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 62);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1345, 646);
-            this.panel5.TabIndex = 4;
             // 
             // panel1
             // 
@@ -161,6 +141,17 @@
             this.btnAddUser.UseVisualStyleBackColor = false;
             this.btnAddUser.Click += new System.EventHandler(this.button1_Click);
             // 
+            // CreateNewUserLabel
+            // 
+            this.CreateNewUserLabel.AutoSize = true;
+            this.CreateNewUserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateNewUserLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(101)))), ((int)(((byte)(139)))));
+            this.CreateNewUserLabel.Location = new System.Drawing.Point(51, 32);
+            this.CreateNewUserLabel.Name = "CreateNewUserLabel";
+            this.CreateNewUserLabel.Size = new System.Drawing.Size(145, 20);
+            this.CreateNewUserLabel.TabIndex = 0;
+            this.CreateNewUserLabel.Text = "Create New User";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.createuserLogo;
@@ -170,6 +161,15 @@
             this.pictureBox1.Size = new System.Drawing.Size(91, 50);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(0, 62);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1345, 646);
+            this.panel5.TabIndex = 4;
             // 
             // CreateUser
             // 
