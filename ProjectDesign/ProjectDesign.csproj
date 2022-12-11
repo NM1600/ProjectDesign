@@ -97,6 +97,12 @@
     <Compile Include="NestleGwapa.Designer.cs">
       <DependentUpon>NestleGwapa.cs</DependentUpon>
     </Compile>
+    <Compile Include="paymentUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paymentUI.Designer.cs">
+      <DependentUpon>paymentUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paymentUI.resx">
+      <DependentUpon>paymentUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.cs</DependentUpon>
