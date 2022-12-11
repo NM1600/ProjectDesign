@@ -55,6 +55,12 @@
     <Compile Include="7up.Designer.cs">
       <DependentUpon>7up.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddUsers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +174,9 @@
     <Compile Include="WinApp.cs" />
     <EmbeddedResource Include="7up.resx">
       <DependentUpon>7up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddUsers.resx">
       <DependentUpon>AddUsers.cs</DependentUpon>
@@ -325,6 +334,10 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\addProductpic.png" />
+    <None Include="Resources\addProductWIndow %281%291.png" />
+    <None Include="Resources\addProductWIndow %281%29.png" />
+    <None Include="Resources\addProductwindow.png" />
     <None Include="Resources\user  %284%29.png" />
     <None Include="Resources\user  %283%29.png" />
     <None Include="Resources\user  %282%29.png" />

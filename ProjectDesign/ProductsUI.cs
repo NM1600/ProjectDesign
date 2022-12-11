@@ -32,5 +32,10 @@ namespace ProjectDesign
         {
             new Sprite().ShowDialog();
         }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            new AddProduct().ShowDialog();
+        }
     }
 }

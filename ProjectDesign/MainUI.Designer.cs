@@ -43,6 +43,7 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnProducts = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.reportsbtn = new System.Windows.Forms.Button();
             this.btnSales = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -52,14 +53,9 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.btnSignout = new System.Windows.Forms.Button();
-            this.reportsbtn = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.siderbarpanel.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,10 +89,6 @@
             this.siderbarpanel.Controls.Add(this.panel16);
             this.siderbarpanel.Controls.Add(this.panel17);
             this.siderbarpanel.Controls.Add(this.panel12);
-            this.siderbarpanel.Controls.Add(this.panel18);
-            this.siderbarpanel.Controls.Add(this.panel19);
-            this.siderbarpanel.Controls.Add(this.panel20);
-            this.siderbarpanel.Controls.Add(this.panel21);
             this.siderbarpanel.Controls.Add(this.panel22);
             this.siderbarpanel.Controls.Add(this.panel4);
             this.siderbarpanel.Dock = System.Windows.Forms.DockStyle.Left;
@@ -104,7 +96,7 @@
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(50, 1061);
+            this.siderbarpanel.Size = new System.Drawing.Size(50, 1055);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -137,7 +129,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(62, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 25);
+            this.label1.Size = new System.Drawing.Size(81, 31);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menu";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -257,6 +249,24 @@
             this.panel9.Size = new System.Drawing.Size(273, 38);
             this.panel9.TabIndex = 5;
             // 
+            // reportsbtn
+            // 
+            this.reportsbtn.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
+            this.reportsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.reportsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.reportsbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reportsbtn.ForeColor = System.Drawing.Color.White;
+            this.reportsbtn.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
+            this.reportsbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportsbtn.Location = new System.Drawing.Point(-30, -6);
+            this.reportsbtn.Name = "reportsbtn";
+            this.reportsbtn.Size = new System.Drawing.Size(321, 46);
+            this.reportsbtn.TabIndex = 4;
+            this.reportsbtn.Text = "                     Reports";
+            this.reportsbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.reportsbtn.UseVisualStyleBackColor = true;
+            this.reportsbtn.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // btnSales
             // 
             this.btnSales.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
@@ -336,57 +346,17 @@
             this.panel12.BackColor = System.Drawing.Color.Transparent;
             this.panel12.Location = new System.Drawing.Point(3, 696);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(189, 51);
+            this.panel12.Size = new System.Drawing.Size(189, 72);
             this.panel12.TabIndex = 7;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.Transparent;
-            this.panel18.Location = new System.Drawing.Point(3, 753);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(189, 46);
-            this.panel18.TabIndex = 7;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.Transparent;
-            this.panel19.Location = new System.Drawing.Point(3, 805);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(189, 46);
-            this.panel19.TabIndex = 8;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.Transparent;
-            this.panel20.Location = new System.Drawing.Point(3, 857);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(189, 46);
-            this.panel20.TabIndex = 8;
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.Transparent;
-            this.panel21.Location = new System.Drawing.Point(3, 909);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(189, 46);
-            this.panel21.TabIndex = 8;
             // 
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.Transparent;
             this.panel22.Controls.Add(this.btnSignout);
-            this.panel22.Location = new System.Drawing.Point(3, 961);
+            this.panel22.Location = new System.Drawing.Point(3, 774);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(189, 46);
             this.panel22.TabIndex = 9;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Location = new System.Drawing.Point(3, 1013);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(273, 52);
-            this.panel4.TabIndex = 7;
             // 
             // btnSignout
             // 
@@ -406,30 +376,20 @@
             this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignout.UseVisualStyleBackColor = false;
             // 
-            // reportsbtn
+            // panel4
             // 
-            this.reportsbtn.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
-            this.reportsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.reportsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.reportsbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reportsbtn.ForeColor = System.Drawing.Color.White;
-            this.reportsbtn.Image = global::ProjectDesign.Properties.Resources.reports_icon_small1;
-            this.reportsbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportsbtn.Location = new System.Drawing.Point(-30, -6);
-            this.reportsbtn.Name = "reportsbtn";
-            this.reportsbtn.Size = new System.Drawing.Size(321, 46);
-            this.reportsbtn.TabIndex = 4;
-            this.reportsbtn.Text = "                     Reports";
-            this.reportsbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.reportsbtn.UseVisualStyleBackColor = true;
-            this.reportsbtn.Click += new System.EventHandler(this.button2_Click_1);
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Location = new System.Drawing.Point(3, 826);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(273, 52);
+            this.panel4.TabIndex = 7;
             // 
             // MainUI
             // 
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.finalHomeUI__1_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(925, 1061);
+            this.ClientSize = new System.Drawing.Size(925, 1055);
             this.Controls.Add(this.siderbarpanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -482,10 +442,6 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnSignout;
         private System.Windows.Forms.Panel panel22;
