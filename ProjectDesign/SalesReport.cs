@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjectDesign
 {
-    public partial class paymentUI : Form
+    public partial class SalesReport : Form
     {
-        public paymentUI()
+        public SalesReport()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

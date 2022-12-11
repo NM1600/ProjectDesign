@@ -16,5 +16,15 @@ namespace ProjectDesign
         {
             InitializeComponent();
         }
+
+        private void ButtonTransaction_Click(object sender, EventArgs e)
+        {
+            new paymentUI().ShowDialog();
+        }
+
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+            new paymentUI().ShowDialog();
+        }
     }
 }

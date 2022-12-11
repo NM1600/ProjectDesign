@@ -141,6 +141,12 @@
     <Compile Include="Sales.Designer.cs">
       <DependentUpon>Sales.cs</DependentUpon>
     </Compile>
+    <Compile Include="SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="SalesUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportsUI.resx">
       <DependentUpon>ReportsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SalesUI.resx">
       <DependentUpon>SalesUI.cs</DependentUpon>
@@ -316,6 +325,16 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\user  %284%29.png" />
+    <None Include="Resources\user  %283%29.png" />
+    <None Include="Resources\user  %282%29.png" />
+    <None Include="Resources\sales small iiicom n1.png" />
+    <None Include="Resources\sales small iiicom2.png" />
+    <None Include="Resources\user  %281%291.png" />
+    <None Include="Resources\user 2.png" />
+    <None Include="Resources\sales small iiicom n.png" />
+    <None Include="Resources\sales small iiicom1.png" />
+    <None Include="Resources\sales small iiicom.png" />
     <None Include="Resources\productBG.png" />
     <None Include="Resources\spriteMismoLogo.png" />
     <None Include="Resources\7upCaseLogo %281%29.png" />

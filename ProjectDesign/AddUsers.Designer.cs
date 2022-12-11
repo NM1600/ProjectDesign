@@ -38,13 +38,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.CreateUserSticker = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CreateUserSticker = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CreateUserSticker)).BeginInit();
             this.SuspendLayout();
@@ -148,28 +148,6 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Add Position:";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.Sodas_Sticker;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(433, -10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 113);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // CreateUserSticker
-            // 
-            this.CreateUserSticker.BackColor = System.Drawing.Color.Transparent;
-            this.CreateUserSticker.BackgroundImage = global::ProjectDesign.Properties.Resources.Create_User_Sticker;
-            this.CreateUserSticker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CreateUserSticker.Location = new System.Drawing.Point(-17, -34);
-            this.CreateUserSticker.Name = "CreateUserSticker";
-            this.CreateUserSticker.Size = new System.Drawing.Size(316, 174);
-            this.CreateUserSticker.TabIndex = 1;
-            this.CreateUserSticker.TabStop = false;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(183)))), ((int)(((byte)(42)))));
@@ -224,6 +202,28 @@
             this.label7.Size = new System.Drawing.Size(44, 20);
             this.label7.TabIndex = 16;
             this.label7.Text = "Sex:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.Sodas_Sticker;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(433, -10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(181, 113);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // CreateUserSticker
+            // 
+            this.CreateUserSticker.BackColor = System.Drawing.Color.Transparent;
+            this.CreateUserSticker.BackgroundImage = global::ProjectDesign.Properties.Resources.user___1_1;
+            this.CreateUserSticker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CreateUserSticker.Location = new System.Drawing.Point(-17, -34);
+            this.CreateUserSticker.Name = "CreateUserSticker";
+            this.CreateUserSticker.Size = new System.Drawing.Size(316, 174);
+            this.CreateUserSticker.TabIndex = 1;
+            this.CreateUserSticker.TabStop = false;
             // 
             // AddUsers
             // 
