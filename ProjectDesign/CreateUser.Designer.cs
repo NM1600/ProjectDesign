@@ -62,7 +62,7 @@
             // 
             this.CreateNewUserLabel.AutoSize = true;
             this.CreateNewUserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateNewUserLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.CreateNewUserLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(101)))), ((int)(((byte)(139)))));
             this.CreateNewUserLabel.Location = new System.Drawing.Point(51, 32);
             this.CreateNewUserLabel.Name = "CreateNewUserLabel";
             this.CreateNewUserLabel.Size = new System.Drawing.Size(145, 20);
@@ -85,7 +85,7 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(366, 12);
+            this.panel1.Location = new System.Drawing.Point(371, 14);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(91, 39);
             this.panel1.TabIndex = 3;
@@ -98,7 +98,7 @@
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
             this.button3.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(-13, -2);
+            this.button3.Location = new System.Drawing.Point(-13, -3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(118, 46);
             this.button3.TabIndex = 1;
@@ -112,7 +112,7 @@
             this.panel3.Controls.Add(this.button2);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(296, 14);
+            this.panel3.Location = new System.Drawing.Point(297, 16);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(91, 39);
             this.panel3.TabIndex = 2;
@@ -140,7 +140,7 @@
             this.panel2.Controls.Add(this.btnAddUser);
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(228, 12);
+            this.panel2.Location = new System.Drawing.Point(221, 13);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(91, 39);
             this.panel2.TabIndex = 2;
