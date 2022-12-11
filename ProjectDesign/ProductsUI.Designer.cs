@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
             this.productDataGrid = new System.Windows.Forms.DataGridView();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnAddUser = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.productDataGrid)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productDataGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -51,18 +51,6 @@
             this.panel1.Size = new System.Drawing.Size(1544, 637);
             this.panel1.TabIndex = 0;
             // 
-            // productDataGrid
-            // 
-            this.productDataGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.productDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.productDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.productDataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.productDataGrid.Location = new System.Drawing.Point(0, 0);
-            this.productDataGrid.Name = "productDataGrid";
-            this.productDataGrid.RowHeadersWidth = 51;
-            this.productDataGrid.Size = new System.Drawing.Size(1544, 637);
-            this.productDataGrid.TabIndex = 0;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
@@ -75,21 +63,21 @@
             this.panel2.Size = new System.Drawing.Size(1544, 60);
             this.panel2.TabIndex = 1;
             // 
-            // btnAddUser
+            // button3
             // 
-            this.btnAddUser.BackColor = System.Drawing.Color.Transparent;
-            this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.btnAddUser.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
-            this.btnAddUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAddUser.Location = new System.Drawing.Point(31, 3);
-            this.btnAddUser.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAddUser.Name = "btnAddUser";
-            this.btnAddUser.Size = new System.Drawing.Size(159, 57);
-            this.btnAddUser.TabIndex = 2;
-            this.btnAddUser.Text = "Add";
-            this.btnAddUser.UseVisualStyleBackColor = false;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.button3.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(592, 3);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(157, 57);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "   Delete";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -107,21 +95,34 @@
             this.button2.Text = "Edit";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnAddUser
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.button3.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(592, 3);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(157, 57);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "   Delete";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnAddUser.BackColor = System.Drawing.Color.Transparent;
+            this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.btnAddUser.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
+            this.btnAddUser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAddUser.Location = new System.Drawing.Point(31, 3);
+            this.btnAddUser.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(159, 57);
+            this.btnAddUser.TabIndex = 2;
+            this.btnAddUser.Text = "Add";
+            this.btnAddUser.UseVisualStyleBackColor = false;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+            // 
+            // productDataGrid
+            // 
+            this.productDataGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.productDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.productDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.productDataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.productDataGrid.Location = new System.Drawing.Point(0, 0);
+            this.productDataGrid.Name = "productDataGrid";
+            this.productDataGrid.RowHeadersWidth = 51;
+            this.productDataGrid.Size = new System.Drawing.Size(1544, 637);
+            this.productDataGrid.TabIndex = 0;
             // 
             // ProductsUI
             // 
@@ -141,8 +142,8 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ProductsUI_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.productDataGrid)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.productDataGrid)).EndInit();
             this.ResumeLayout(false);
 
         }
