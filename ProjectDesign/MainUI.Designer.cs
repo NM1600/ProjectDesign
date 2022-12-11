@@ -53,10 +53,6 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.btnSignout = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -93,10 +89,6 @@
             this.siderbarpanel.Controls.Add(this.panel16);
             this.siderbarpanel.Controls.Add(this.panel17);
             this.siderbarpanel.Controls.Add(this.panel12);
-            this.siderbarpanel.Controls.Add(this.panel18);
-            this.siderbarpanel.Controls.Add(this.panel19);
-            this.siderbarpanel.Controls.Add(this.panel20);
-            this.siderbarpanel.Controls.Add(this.panel21);
             this.siderbarpanel.Controls.Add(this.panel22);
             this.siderbarpanel.Controls.Add(this.panel4);
             this.siderbarpanel.Dock = System.Windows.Forms.DockStyle.Left;
@@ -354,46 +346,14 @@
             this.panel12.BackColor = System.Drawing.Color.Transparent;
             this.panel12.Location = new System.Drawing.Point(3, 696);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(189, 51);
+            this.panel12.Size = new System.Drawing.Size(189, 72);
             this.panel12.TabIndex = 7;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.Transparent;
-            this.panel18.Location = new System.Drawing.Point(3, 753);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(189, 46);
-            this.panel18.TabIndex = 7;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.Transparent;
-            this.panel19.Location = new System.Drawing.Point(3, 805);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(189, 46);
-            this.panel19.TabIndex = 8;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.Transparent;
-            this.panel20.Location = new System.Drawing.Point(3, 857);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(189, 46);
-            this.panel20.TabIndex = 8;
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.Transparent;
-            this.panel21.Location = new System.Drawing.Point(3, 909);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(189, 46);
-            this.panel21.TabIndex = 8;
             // 
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.Transparent;
             this.panel22.Controls.Add(this.btnSignout);
-            this.panel22.Location = new System.Drawing.Point(3, 961);
+            this.panel22.Location = new System.Drawing.Point(3, 774);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(189, 46);
             this.panel22.TabIndex = 9;
@@ -419,7 +379,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Location = new System.Drawing.Point(3, 1013);
+            this.panel4.Location = new System.Drawing.Point(3, 826);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(273, 52);
             this.panel4.TabIndex = 7;
@@ -482,10 +442,6 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnSignout;
         private System.Windows.Forms.Panel panel22;
