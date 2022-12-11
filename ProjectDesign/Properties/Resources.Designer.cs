@@ -713,6 +713,16 @@ namespace ProjectDesign.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap productBG {
+            get {
+                object obj = ResourceManager.GetObject("productBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap profile_iCOn {
             get {
                 object obj = ResourceManager.GetObject("profile iCOn", resourceCulture);

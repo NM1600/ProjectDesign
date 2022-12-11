@@ -316,6 +316,7 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\productBG.png" />
     <None Include="Resources\spriteMismoLogo.png" />
     <None Include="Resources\7upCaseLogo %281%29.png" />
     <None Include="Resources\7upCaseLogo.png" />
