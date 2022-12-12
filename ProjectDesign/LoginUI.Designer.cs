@@ -51,9 +51,10 @@
             this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.Color.White;
             this.LoginButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.LoginButton.Location = new System.Drawing.Point(136, 286);
+            this.LoginButton.Location = new System.Drawing.Point(181, 352);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(75, 28);
+            this.LoginButton.Size = new System.Drawing.Size(100, 34);
             this.LoginButton.TabIndex = 0;
             this.LoginButton.Text = "LOGIN";
             this.LoginButton.UseVisualStyleBackColor = false;
@@ -64,9 +65,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.Logo_display21;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(71, -11);
+            this.pictureBox1.Location = new System.Drawing.Point(95, -14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 78);
+            this.pictureBox1.Size = new System.Drawing.Size(264, 96);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -75,9 +77,10 @@
             this.txtUsername.BackColor = System.Drawing.Color.White;
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.ForeColor = System.Drawing.Color.Black;
-            this.txtUsername.Location = new System.Drawing.Point(52, 196);
+            this.txtUsername.Location = new System.Drawing.Point(69, 241);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(231, 31);
+            this.txtUsername.Size = new System.Drawing.Size(307, 37);
             this.txtUsername.TabIndex = 2;
             this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUsername.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
@@ -86,20 +89,23 @@
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
-            this.txtPassword.Location = new System.Drawing.Point(52, 242);
+            this.txtPassword.Location = new System.Drawing.Point(69, 298);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(231, 34);
+            this.txtPassword.Size = new System.Drawing.Size(307, 40);
             this.txtPassword.TabIndex = 3;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // usernamebox
             // 
             this.usernamebox.BackColor = System.Drawing.Color.White;
             this.usernamebox.BackgroundImage = global::ProjectDesign.Properties.Resources.usernme_iCOn__1_;
             this.usernamebox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.usernamebox.Location = new System.Drawing.Point(55, 198);
+            this.usernamebox.Location = new System.Drawing.Point(73, 244);
+            this.usernamebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.usernamebox.Name = "usernamebox";
-            this.usernamebox.Size = new System.Drawing.Size(28, 28);
+            this.usernamebox.Size = new System.Drawing.Size(37, 34);
             this.usernamebox.TabIndex = 4;
             this.usernamebox.TabStop = false;
             // 
@@ -108,9 +114,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.passwords_iCOn;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(52, 243);
+            this.pictureBox2.Location = new System.Drawing.Point(69, 299);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 31);
+            this.pictureBox2.Size = new System.Drawing.Size(43, 38);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
@@ -119,9 +126,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::ProjectDesign.Properties.Resources.profile_iCOn__1_;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(106, 42);
+            this.pictureBox3.Location = new System.Drawing.Point(141, 52);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(133, 132);
+            this.pictureBox3.Size = new System.Drawing.Size(177, 162);
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
@@ -132,18 +140,19 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(134, 159);
+            this.label1.Location = new System.Drawing.Point(179, 196);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 25);
+            this.label1.Size = new System.Drawing.Size(116, 31);
             this.label1.TabIndex = 7;
             this.label1.Text = "SIGN IN";
             // 
             // LoginUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.The_Insanity_Defense__Hardcover_;
-            this.ClientSize = new System.Drawing.Size(344, 353);
+            this.ClientSize = new System.Drawing.Size(459, 434);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.usernamebox);
             this.Controls.Add(this.txtUsername);
@@ -152,6 +161,7 @@
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LoginUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";

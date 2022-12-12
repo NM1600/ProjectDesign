@@ -159,6 +159,7 @@
             this.HomeButton.Text = "                  Home";
             this.HomeButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Visible = false;
             this.HomeButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel6
@@ -375,6 +376,7 @@
             this.btnSignout.Text = "                     Sign Out";
             this.btnSignout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignout.UseVisualStyleBackColor = false;
+            this.btnSignout.Click += new System.EventHandler(this.btnSignout_Click);
             // 
             // panel4
             // 

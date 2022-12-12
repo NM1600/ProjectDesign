@@ -252,6 +252,11 @@ namespace ProjectDesign
             FormSelect("reports");
   
         }
+
+        private void btnSignout_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
 
