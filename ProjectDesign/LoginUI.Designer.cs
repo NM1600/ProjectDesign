@@ -30,8 +30,8 @@
         {
             this.LoginButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.UsernameTextbox = new System.Windows.Forms.TextBox();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.usernamebox = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -57,6 +57,7 @@
             this.LoginButton.TabIndex = 0;
             this.LoginButton.Text = "LOGIN";
             this.LoginButton.UseVisualStyleBackColor = false;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // pictureBox1
             // 
@@ -69,27 +70,27 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // UsernameTextbox
+            // txtUsername
             // 
-            this.UsernameTextbox.BackColor = System.Drawing.Color.White;
-            this.UsernameTextbox.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameTextbox.ForeColor = System.Drawing.Color.Black;
-            this.UsernameTextbox.Location = new System.Drawing.Point(52, 196);
-            this.UsernameTextbox.Name = "UsernameTextbox";
-            this.UsernameTextbox.Size = new System.Drawing.Size(231, 31);
-            this.UsernameTextbox.TabIndex = 2;
-            this.UsernameTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.UsernameTextbox.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
+            this.txtUsername.BackColor = System.Drawing.Color.White;
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.Location = new System.Drawing.Point(52, 196);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(231, 31);
+            this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUsername.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
             // 
-            // PasswordTextBox
+            // txtPassword
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Berlin Sans FB", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordTextBox.ForeColor = System.Drawing.Color.Black;
-            this.PasswordTextBox.Location = new System.Drawing.Point(52, 242);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(231, 33);
-            this.PasswordTextBox.TabIndex = 3;
-            this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtPassword.Location = new System.Drawing.Point(52, 242);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(231, 34);
+            this.txtPassword.TabIndex = 3;
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // usernamebox
             // 
@@ -129,11 +130,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(134, 159);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 23);
+            this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 7;
             this.label1.Text = "SIGN IN";
             // 
@@ -145,9 +146,9 @@
             this.ClientSize = new System.Drawing.Size(344, 353);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.usernamebox);
-            this.Controls.Add(this.UsernameTextbox);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
@@ -168,8 +169,8 @@
 
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox UsernameTextbox;
-        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.PictureBox usernamebox;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;

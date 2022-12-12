@@ -1,6 +1,7 @@
 ﻿using ProjectDesign.Classes;
 using ShutterPrism.MVC.FontAwesome;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -98,6 +99,7 @@ namespace ProjectDesign
         private void button1_Click(object sender, EventArgs e)
         {
             new AddUsers().ShowDialog();
+            FetchData();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -105,6 +107,26 @@ namespace ProjectDesign
             Users data = GetSelectedRow(dtgRecords.CurrentRow);
             new AddUsers(data).ShowDialog();
             FetchData();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Users data = GetSelectedRow(dtgRecords.CurrentRow);
+            DialogResult dialogResult = MessageBox.Show("Delete "+data.Firstname+"?", "Confirmation", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                string query = $"Delete Users where UserId='{data.UserId}'";
+                conn.Open();
+                cmd.CommandText = query;
+                cmd.ExecuteNonQuery();
+                conn.Close();
+                MessageBox.Show("Successfully Deleted.");
+                FetchData();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                //do something else
+            }
         }
     }
 }

@@ -29,33 +29,47 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dtTo = new System.Windows.Forms.DateTimePicker();
+            this.dtFrom = new System.Windows.Forms.DateTimePicker();
+            this.dtgRecords = new System.Windows.Forms.DataGridView();
+            this.lblTotalSale = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
+            this.panel1.Controls.Add(this.lblTotalSale);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnGo);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dtTo);
+            this.panel1.Controls.Add(this.dtFrom);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1370, 80);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.user___4_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(921, -101);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(519, 313);
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -67,18 +81,19 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnGo
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(183)))), ((int)(((byte)(42)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(317, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 57);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Go";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnGo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(183)))), ((int)(((byte)(42)))));
+            this.btnGo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGo.ForeColor = System.Drawing.Color.White;
+            this.btnGo.Location = new System.Drawing.Point(317, 14);
+            this.btnGo.Name = "btnGo";
+            this.btnGo.Size = new System.Drawing.Size(106, 57);
+            this.btnGo.TabIndex = 16;
+            this.btnGo.Text = "Go";
+            this.btnGo.UseVisualStyleBackColor = false;
+            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // label2
             // 
@@ -102,29 +117,40 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Date from:";
             // 
-            // dateTimePicker2
+            // dtTo
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(102, 51);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 1;
+            this.dtTo.Location = new System.Drawing.Point(102, 51);
+            this.dtTo.Name = "dtTo";
+            this.dtTo.Size = new System.Drawing.Size(200, 20);
+            this.dtTo.TabIndex = 1;
             // 
-            // dateTimePicker1
+            // dtFrom
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(102, 14);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 0;
+            this.dtFrom.Location = new System.Drawing.Point(102, 14);
+            this.dtFrom.Name = "dtFrom";
+            this.dtFrom.Size = new System.Drawing.Size(200, 20);
+            this.dtFrom.TabIndex = 0;
             // 
-            // pictureBox2
+            // dtgRecords
             // 
-            this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.user___4_;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(921, -101);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(519, 313);
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
+            this.dtgRecords.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.dtgRecords.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgRecords.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgRecords.Location = new System.Drawing.Point(0, 80);
+            this.dtgRecords.Name = "dtgRecords";
+            this.dtgRecords.Size = new System.Drawing.Size(1370, 669);
+            this.dtgRecords.TabIndex = 1;
+            // 
+            // lblTotalSale
+            // 
+            this.lblTotalSale.AutoSize = true;
+            this.lblTotalSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblTotalSale.Location = new System.Drawing.Point(440, 27);
+            this.lblTotalSale.Name = "lblTotalSale";
+            this.lblTotalSale.Size = new System.Drawing.Size(237, 29);
+            this.lblTotalSale.TabIndex = 19;
+            this.lblTotalSale.Text = "TOTAL SALES : 0.00";
             // 
             // ReportsUI
             // 
@@ -132,14 +158,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.dtgRecords);
             this.Controls.Add(this.panel1);
             this.Name = "ReportsUI";
             this.Text = "ReportsUI";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ReportsUI_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -147,12 +176,14 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtTo;
+        private System.Windows.Forms.DateTimePicker dtFrom;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DataGridView dtgRecords;
+        private System.Windows.Forms.Label lblTotalSale;
     }
 }

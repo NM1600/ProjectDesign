@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgRecords = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
@@ -44,7 +44,7 @@
             this.EditBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -66,7 +66,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.dtgRecords);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 62);
@@ -74,16 +74,16 @@
             this.panel3.Size = new System.Drawing.Size(1028, 547);
             this.panel3.TabIndex = 1;
             // 
-            // dataGridView1
+            // dtgRecords
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1028, 547);
-            this.dataGridView1.TabIndex = 0;
+            this.dtgRecords.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.dtgRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgRecords.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgRecords.Location = new System.Drawing.Point(0, 0);
+            this.dtgRecords.Name = "dtgRecords";
+            this.dtgRecords.RowHeadersWidth = 51;
+            this.dtgRecords.Size = new System.Drawing.Size(1028, 547);
+            this.dtgRecords.TabIndex = 0;
             // 
             // panel2
             // 
@@ -104,7 +104,7 @@
             // 
             this.panel8.Controls.Add(this.button4);
             this.panel8.Location = new System.Drawing.Point(291, 12);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(92, 35);
             this.panel8.TabIndex = 3;
@@ -123,12 +123,13 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "       Delete";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.button1);
             this.panel7.Location = new System.Drawing.Point(195, 11);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(92, 35);
             this.panel7.TabIndex = 2;
@@ -239,9 +240,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SalesUI";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.SalesUI_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -263,7 +265,7 @@
         private System.Windows.Forms.Button EditBtn;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnSalesTransaction;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgRecords;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button1;

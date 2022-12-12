@@ -68,6 +68,8 @@
       <DependentUpon>AddUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\DBServer.cs" />
+    <Compile Include="Classes\Products.cs" />
+    <Compile Include="Classes\Sales.cs" />
     <Compile Include="Classes\Users.cs" />
     <Compile Include="CreateUser.cs">
       <SubType>Form</SubType>
@@ -142,12 +144,6 @@
     </Compile>
     <Compile Include="ReportsUI.Designer.cs">
       <DependentUpon>ReportsUI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sales.Designer.cs">
-      <DependentUpon>Sales.cs</DependentUpon>
     </Compile>
     <Compile Include="SalesReport.cs">
       <SubType>Form</SubType>

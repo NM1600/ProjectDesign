@@ -14,21 +14,21 @@ namespace ProjectDesign
     {
         //int PW;
         //bool Hided;
+        bool isLoggedIn = false;
         bool sidebarpanelExpand = true;
         //private object sidebarpanel;
         //private object Width;
         public MainUI()
         {
             InitializeComponent();
-            //panelLeft.Height = btnHome.Height;
-            //panelLeft.Top = btnHome.Top;
 
-            new LoginUI().ShowDialog();
+            new LoginUI(this).ShowDialog();
+            
         }
 
-        private void MainUI_Load(object sender, EventArgs e)
+        public void SetIsLoggedIn(bool isLoggedIn)
         {
-            
+            this.isLoggedIn = isLoggedIn;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,14 +65,6 @@ namespace ProjectDesign
 
         private void MENUbutton_Click(object sender, EventArgs e)
         {
-
-            //if (sidemenu.Width == 50)
-            //{
-            //    sidemenu.Visible = false;
-            //    sidemenu.Width = 260;
-            //    PanelAnimator.ShowSync(sidemenu);
-            //    LogoAnimator.ShowSync(logo);
-            //}
         }
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
@@ -86,33 +78,13 @@ namespace ProjectDesign
 
         private void siderbarpanel_tick(object sender, EventArgs e)
         {
-            //            if (sidebarpanelExpand)
-            //            {
-            //                //If sidebar is expand, minimize
-            //                sidebarpanel.Width -= 10;
-            //                if (sidebarpanel.Width-- sidebarpanel.MinSize.Width)
-            //                        { 
 
-            //                }
-
-            //            {
-            //                    sidebarpanelExpand = false;
-            //                    sidePanelTimer.Stop();
-            //                }
-            //            }
-            //            else
-            //            {
-            //                sidebarpanel.Width += 10;
-            //                if (sidebarpanel.Width -- sidebarpanel.MaxSize.Width)
-            //{
-            //                    sidebarpanelExpand = true;
-            ////                    sidePanelTimer.Stop();
-            //                }
-            //            }
         }
 
         private void MainUI_Load_2(object sender, EventArgs e)
         {
+            if (isLoggedIn == false)
+                this.Close();
             StartPanel();
     
         }
@@ -120,51 +92,38 @@ namespace ProjectDesign
         private void btnHome_Click(object sender, EventArgs e)
         {
             FormSelect("home");
-            ////panelLeft.Height = btnHome.Height;
-            ////panelLeft.Top = btnHome.Top;
         }
 
         private void btnProfile_Click(object sender, EventArgs e)
         {
             FormSelect("profile");
-            //panelLeft.Height = btnProfile.Height;
-            //panelLeft.Top = btnProfile.Top;
         }
 
         private void btnCreateUser_Click(object sender, EventArgs e)
         {
-            //FormSelect("user");
-            //panelLeft.Height = btnCreateUser.Height;
-            //panelLeft.Top = btnCreateUser.Top;
         }
 
         private void btnProducts_Click(object sender, EventArgs e)
         {
             FormSelect("products");
-            //panelLeft.Height = btnProducts.Height;
-            //panelLeft.Top = btnProducts.Top;
+
         }
 
         private void btnSales_Click(object sender, EventArgs e)
         {
             FormSelect("sales");
-            //panelLeft.Height = btnSales.Height;
-            //panelLeft.Top = btnSales.Top;
+
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
             FormSelect("reports");
-            //panelLeft.Height = btnReports.Height;
-            //panelLeft.Top = btnReports.Top;
+
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            //FormSelect("settings");
 
-            //panelLeft.Height = btnSettings.Height;
-            //panelLeft.Top = btnSettings.Top;
         }
         public void FormSelect(string formName)
         {
@@ -295,13 +254,6 @@ namespace ProjectDesign
         }
     }
 }
-
-//        private void menubutton_Click_1(object sender, EventArgs e)
-//        {
-
-//        }
-//    }
-//}
 
 
 
