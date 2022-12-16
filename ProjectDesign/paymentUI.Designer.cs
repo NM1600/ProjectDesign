@@ -47,9 +47,10 @@
             this.txtAvailableQuantity = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -248,18 +249,19 @@
             this.richTextBox1.TabIndex = 17;
             this.richTextBox1.Text = "";
             // 
-            // button1
+            // btnPrint
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(183)))), ((int)(((byte)(42)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(518, 399);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 38);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Print";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnPrint.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.Color.White;
+            this.btnPrint.Location = new System.Drawing.Point(593, 399);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(118, 38);
+            this.btnPrint.TabIndex = 18;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.button1_Click);
             // 
             // label9
             // 
@@ -281,15 +283,29 @@
             this.textBox1.Size = new System.Drawing.Size(121, 19);
             this.textBox1.TabIndex = 20;
             // 
+            // btnGenerate
+            // 
+            this.btnGenerate.BackColor = System.Drawing.Color.Brown;
+            this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerate.ForeColor = System.Drawing.Color.White;
+            this.btnGenerate.Location = new System.Drawing.Point(443, 399);
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.Size = new System.Drawing.Size(118, 38);
+            this.btnGenerate.TabIndex = 21;
+            this.btnGenerate.Text = "Generate ";
+            this.btnGenerate.UseVisualStyleBackColor = false;
+            // 
             // paymentUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
             this.ClientSize = new System.Drawing.Size(744, 465);
+            this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtAmountPaid);
@@ -340,8 +356,9 @@
         private System.Windows.Forms.TextBox txtAvailableQuantity;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnGenerate;
     }
 }
