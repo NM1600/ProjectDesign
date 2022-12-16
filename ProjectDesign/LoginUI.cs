@@ -42,20 +42,22 @@ namespace ProjectDesign
         {
             if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
+                
                 MessageBox.Show("Empty Fields.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            string query = $"select * from Users where Username='{txtUsername.Text}' AND Password = '{txtPassword.Text}'";
+            
+            string query = $"select * from Users where Username Collate ='{txtUsername.Text}' AND Password Collate = '{txtPassword.Text}'";
             SqlDataAdapter adpt = new SqlDataAdapter(query, conn);
             DataTable table = new DataTable();
             adpt.Fill(table);
             if (table.Rows.Count == 0)
             {
-                MessageBox.Show("Incorrect Credentials", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Incorrect Username/Password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             ui.SetIsLoggedIn(true);
-            MessageBox.Show("Successfully LoggedIn", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Login Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Dispose();
         }
     }

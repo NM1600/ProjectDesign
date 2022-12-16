@@ -169,5 +169,10 @@ namespace ProjectDesign
                 AmountPaid = Convert.ToDecimal(txtAmountPaid.Text)
             };
         }
+
+        private void txtTotalAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
