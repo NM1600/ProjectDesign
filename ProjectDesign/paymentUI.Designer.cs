@@ -46,7 +46,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtAvailableQuantity = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtResult = new System.Windows.Forms.RichTextBox();
             this.btnPrint = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -90,6 +90,7 @@
             this.txtPrice.ReadOnly = true;
             this.txtPrice.Size = new System.Drawing.Size(121, 26);
             this.txtPrice.TabIndex = 4;
+            //this.txtPrice.TextChanged += new System.EventHandler(this.txtPrice_TextChanged);
             // 
             // txtQuantity
             // 
@@ -241,13 +242,13 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "Available Quantity:";
             // 
-            // richTextBox1
+            // txtResult
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(408, 54);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(324, 333);
-            this.richTextBox1.TabIndex = 17;
-            this.richTextBox1.Text = "";
+            this.txtResult.Location = new System.Drawing.Point(408, 54);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(324, 333);
+            this.txtResult.TabIndex = 17;
+            this.txtResult.Text = "";
             // 
             // btnPrint
             // 
@@ -295,6 +296,7 @@
             this.btnGenerate.TabIndex = 21;
             this.btnGenerate.Text = "Generate ";
             this.btnGenerate.UseVisualStyleBackColor = false;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // paymentUI
             // 
@@ -306,7 +308,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnPrint);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtResult);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtAmountPaid);
             this.Controls.Add(this.label6);
@@ -355,7 +357,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtAvailableQuantity;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtResult;
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;

@@ -47,7 +47,7 @@ namespace ProjectDesign
                 return;
             }
             
-            string query = $"select * from Users where Username Collate ='{txtUsername.Text}' AND Password Collate = '{txtPassword.Text}'";
+            string query = $"select * from Users where Username='{txtUsername.Text}' AND Password= '{txtPassword.Text}'";
             SqlDataAdapter adpt = new SqlDataAdapter(query, conn);
             DataTable table = new DataTable();
             adpt.Fill(table);
