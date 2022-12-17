@@ -29,7 +29,7 @@ namespace ProjectDesign
 
         private void printDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-
+            e.Graphics.DrawString(txtResult.Text,new Font("Microsoft Sans Serif",18,FontStyle.Bold),Brushes.Black,new Point(10,10));  
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace ProjectDesign
             txtResult.Text += "Available Quantity: " + sale.Quantity + "\n\n";
             txtResult.Text += "Price: " + sale.Price + "\n\n";
             txtResult.Text += "Total Amount: " + sale.TotalAmount + "\n\n";
-            txtResult.Text += "Total Amount Paid: " + sale.AmountPaid+"\n\n";
+            txtResult.Text += "Total Amount Paid: " + sale.AmountPaid + "\n\n";
         }
     }
 }

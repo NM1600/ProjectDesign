@@ -202,6 +202,16 @@ namespace ProjectDesign
         {
 
         }
+
+        private void txtChange_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAmountPaid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
  }
 
