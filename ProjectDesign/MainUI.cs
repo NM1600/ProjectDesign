@@ -255,7 +255,7 @@ namespace ProjectDesign
 
         private void btnSignout_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            //new logoutPop(this).ShowDialog();   
         }
     }
 }

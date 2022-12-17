@@ -61,6 +61,12 @@ namespace ProjectDesign
                 MessageBox.Show("Quantity must be numeric.");
                 return;
             }
+           
+            if (!int.TryParse(txtAmountPaid.Text, out parsedValue))
+            {
+                MessageBox.Show("Amount Paid must be numeric.");
+                return;
+            }
             if (string.IsNullOrEmpty(txtCustomerName.Text) || string.IsNullOrEmpty(txtAmountPaid.Text))
             {
                 MessageBox.Show("Empty Fields", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -97,6 +103,8 @@ namespace ProjectDesign
             conn.Close();
             UpdateInventory();
             MessageBox.Show("Successfully " + msg, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (chkPrintReceipt.Checked)
+                new printUI(data).ShowDialog();
             this.Dispose();
         }
         private void UpdateInventory()
@@ -210,7 +218,11 @@ namespace ProjectDesign
 
         private void txtAmountPaid_TextChanged(object sender, EventArgs e)
         {
-
+            if (txtAmountPaid.Text == "") return;
+            int parsedValue;
+            if (!int.TryParse(txtAmountPaid.Text, out parsedValue))
+                return;
+            txtChange.Text = (Convert.ToDecimal(txtTotalAmount.Text) - Convert.ToDecimal (txtAmountPaid.Text)).ToString("n2");  
         }
     }
  }

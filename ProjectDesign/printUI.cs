@@ -41,7 +41,7 @@ namespace ProjectDesign
         private void printUI_Load(object sender, EventArgs e)
         {
             txtResult.Text += "Sue Refreshment Receipt System";
-            txtResult.Text += "Date:" + sale.TransDate + "\n\n";
+            txtResult.Text += "Date:" + sale.TransDate.ToString("MM/dd/yyyy") + "\n\n";
 
             txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n\n";
             txtResult.Text += "Products: " + sale.ProductName + "\n\n";

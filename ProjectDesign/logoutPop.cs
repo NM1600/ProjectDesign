@@ -16,5 +16,15 @@ namespace ProjectDesign
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void logoutPop_Load(object sender, EventArgs e)
+        {
+            //this.Dispose();
+        }
     }
 }
