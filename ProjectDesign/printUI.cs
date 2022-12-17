@@ -40,16 +40,17 @@ namespace ProjectDesign
 
         private void printUI_Load(object sender, EventArgs e)
         {
-            txtResult.Text += "Sue Refreshment Receipt System";
-            txtResult.Text += "Date:" + sale.TransDate.ToString("MM/dd/yyyy") + "\n\n";
-
-            txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n\n";
+            txtResult.Text += "          Sue Refreshment Transaction Receipt\n";
+            txtResult.Text += "---------------------------------------------------------\n";
+            txtResult.Text += "Date:" + sale.TransDate.ToString("MM/dd/yyyy") + "\n";
+            txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n";
+            txtResult.Text += "---------------------------------------------------------\n";
             txtResult.Text += "Products: " + sale.ProductName + "\n\n";
             txtResult.Text += "Available Quantity: " + sale.Quantity + "\n\n";
-            txtResult.Text += "Price: PHP" + sale.Price + "\n\n";
-            txtResult.Text += "Total Amount: PHP " + sale.TotalAmount + "\n\n";
-            txtResult.Text += "Total Amount Paid: PHP " + sale.AmountPaid + "\n\n";
-            txtResult.Text += "Change: PHP " + (sale.AmountPaid - sale.TotalAmount) + "\n\n";
+            txtResult.Text += "Price: ₱" + sale.Price + "\n\n";
+            txtResult.Text += "Total Amount: ₱ " + sale.TotalAmount + "\n\n";
+            txtResult.Text += "Total Amount Paid: ₱ " + sale.AmountPaid + "\n\n";
+            txtResult.Text += "Change: ₱ " + (sale.AmountPaid - sale.TotalAmount) + "\n\n";
         }
     }
 }
