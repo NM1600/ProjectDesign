@@ -341,6 +341,7 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\paymentLogo.png" />
     <None Include="Resources\yellowMainUIcover.png" />
     <None Include="Resources\addProductpic.png" />
     <None Include="Resources\addProductWIndow %281%291.png" />
