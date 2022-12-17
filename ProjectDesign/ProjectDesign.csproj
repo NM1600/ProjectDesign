@@ -113,6 +113,12 @@
     <Compile Include="paymentUI.Designer.cs">
       <DependentUpon>paymentUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="printUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printUI.Designer.cs">
+      <DependentUpon>printUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="paymentUI.resx">
       <DependentUpon>paymentUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printUI.resx">
+      <DependentUpon>printUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.cs</DependentUpon>
