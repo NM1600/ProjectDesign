@@ -255,7 +255,15 @@ namespace ProjectDesign
 
         private void btnSignout_Click(object sender, EventArgs e)
         {
-            //new logoutPop(this).ShowDialog();   
+            DialogResult dialogResult = MessageBox.Show("Do you want to Logout?", "Confirmation", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Dispose();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                //do something else
+            }
         }
     }
 }

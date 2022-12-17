@@ -8,6 +8,6 @@ namespace ProjectDesign.Classes
 {
     public class DBServer
     {
-        public static string ServerName = @"Data Source=NM;Initial Catalog=SueRefreshmentsDB;Integrated Security=True";
+        public static string ServerName = @"Data Source=DESKTOP-AUQ9L54\SQLEXPRESS;Initial Catalog=SueRefreshmentsDB;Integrated Security=True";
     }
 }
