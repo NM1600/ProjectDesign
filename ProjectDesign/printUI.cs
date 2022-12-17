@@ -45,10 +45,10 @@ namespace ProjectDesign
 
             txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n\n";
             txtResult.Text += "Products: " + sale.ProductName + "\n\n";
-            txtResult.Text += "Available Quantity: ";" + sale.Quantity + "\n\n";
-            txtResult.Text += "Price: " + sale.Price + "\n\n
+            txtResult.Text += "Available Quantity: " + sale.Quantity + "\n\n";
+            txtResult.Text += "Price: " + sale.Price + "\n\n";
             txtResult.Text += "Total Amount: " + sale.TotalAmount + "\n\n";
-            txtResult.Text += "Total Amount Paid: " + sale.
+            txtResult.Text += "Total Amount Paid: " + sale.AmountPaid+"\n\n";
         }
     }
 }
