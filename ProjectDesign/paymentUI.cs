@@ -224,6 +224,11 @@ namespace ProjectDesign
                 return;
             txtChange.Text = (Convert.ToDecimal(txtAmountPaid.Text) - Convert.ToDecimal (txtTotalAmount.Text)).ToString("n2");  
         }
+
+        private void chkPrintReceipt_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
  }
 
