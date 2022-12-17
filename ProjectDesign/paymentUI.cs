@@ -183,14 +183,15 @@ namespace ProjectDesign
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             txtResult.Clear();
-            txtResult.Text += "Sue Refreshment Receipt System";
-            txtResult.Text += "Date:" + dtTransDate.Text + "\n\n";
+            txtResult.Text += "               Sue Refreshment Receipt System\n";
+            txtResult.Text += "----------------------------------------------------------\n";
+            txtResult.Text += "Date: " + dtTransDate.Text + "\n\n";
 
-            txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n\n";
-            txtResult.Text += "Products: " + cboProducts.Text + "\n\n";
-            txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n\n";
-            txtResult.Text += "Price: " + txtPrice.Text + "\n\n";
-            txtResult.Text += "Total Amount " + txtTotalAmount.Text + "\n\n";
+            txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n";
+            txtResult.Text += "Products: " + cboProducts.Text + "\n";
+            txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n";
+            txtResult.Text += "Price: " + txtPrice.Text + "\n";
+            txtResult.Text += "Total Amount " + txtTotalAmount.Text + "\n";
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
@@ -199,6 +200,11 @@ namespace ProjectDesign
         }
 
         private void printPreviewDialog_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtResult_TextChanged(object sender, EventArgs e)
         {
 
         }

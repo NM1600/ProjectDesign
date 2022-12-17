@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="createuserLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\createuserLogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="CreateBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CreateBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,11 +127,17 @@
   <data name="sales small iiicom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales small iiicom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="addProductwindow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addProductwindow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo Display" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo Display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="account iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\account iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iPhone wallpaper ombre purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iPhone wallpaper ombre purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cover homepage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cover homepage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="account iCOn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account iCOn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -144,6 +147,9 @@
   </data>
   <data name="account iCOn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account iCOn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home small iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home small iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sales small iiicom n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales small iiicom n1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,9 +166,6 @@
   <data name="user 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="The Insanity Defense (Hardcover)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\The Insanity Defense (Hardcover).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="login iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,11 +181,8 @@
   <data name="addProductpic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addProductpic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spriteLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spriteLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="create user small3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\create user small3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bglogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bglogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="createuserLogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\createuserLogo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,9 +193,6 @@
   <data name="create user small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\create user small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reports icon small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reports icon small1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="homeUI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\homeUI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,17 +202,11 @@
   <data name="user " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="homeUI2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\homeUI2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sales samll icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales samll icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="password iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yellowMainUIcover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellowMainUIcover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="The Insanity Defense (Hardcover)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\The Insanity Defense (Hardcover)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +220,8 @@
   <data name="finalHomeUI1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finalHomeUI1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="7upCaseLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7upCaseLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user  (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user  (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo display21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo display21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,26 +265,26 @@
   <data name="gray background 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gray background 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="createuserLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\createuserLogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MENU BTTN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU BTTN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="employee icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\employee icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="createuserLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\createuserLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Create user button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Create user button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home small iCOn (1)21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home small iCOn (1)21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="employee icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\employee icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7upLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7upLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="profile iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Create BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user  (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user  (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,11 +301,14 @@
   <data name="user  (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user  (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addUserLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addUserLogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="spriteLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spriteLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Create User Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Create User Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inventory Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inventory Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -325,8 +319,8 @@
   <data name="Add icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Add icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addProductwindow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addProductwindow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="homeUI2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homeUI2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="addProductWIndow (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addProductWIndow (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,11 +349,8 @@
   <data name="Sodas Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sodas Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="finalHomeUI (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\finalHomeUI (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SETTINGS SMALL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SETTINGS SMALL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="addUserLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addUserLogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="royalLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\royalLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,14 +361,20 @@
   <data name="Application list for Desktop app by gleb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Application list for Desktop app by gleb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home small iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home small iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reports icon small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reports icon small1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SETTINGS SMALL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SETTINGS SMALL2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="finalHomeUI (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalHomeUI (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo display2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo display2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create user button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Create user button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="White and Grey Gradient Background - pngmagic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\White and Grey Gradient Background - pngmagic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,17 +388,20 @@
   <data name="addUserLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addUserLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home small iCOn (1)21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home small iCOn (1)21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SETTINGS SMALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SETTINGS SMALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RCLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RCLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create BUTTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Create BUTTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7upCaseLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7upCaseLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo display2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo display2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="account iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SALES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SALES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -409,23 +409,26 @@
   <data name="stingLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stingLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bglogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bglogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign iCOn (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign iCOn (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="juicyLemonLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juicyLemonLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Profilesmall (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Profilesmall (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user  (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user  (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="create user small3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\create user small3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="White and Grey Gradient Background - pngmagic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\White and Grey Gradient Background - pngmagic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="juicyLemonLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\juicyLemonLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="createuserLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\createuserLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user  (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user  (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -436,11 +439,11 @@
   <data name="mtDewLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mtDewLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create user button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Create user button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SETTINGS SMALL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SETTINGS SMALL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iPhone wallpaper ombre purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iPhone wallpaper ombre purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="The Insanity Defense (Hardcover)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Insanity Defense (Hardcover).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Settings button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Settings button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -448,19 +451,19 @@
   <data name="Sue Refreshments" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sue Refreshments.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cover homepage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cover homepage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SETTINGS SMALL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SETTINGS SMALL2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sales small iiicom n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales small iiicom n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Inventory Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Inventory Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="finalHomeUI (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalHomeUI (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="finalHomeUI (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\finalHomeUI (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="password iCOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password iCOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yellowMainUIcover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellowMainUIcover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paymentLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paymentLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
