@@ -60,7 +60,7 @@ namespace ProjectDesign
         }
         public void TotalSales()
         {
-            lblTotalSale.Text = "TOTAL SALES: ₱ " + sales.Select(x => x.TotalAmount).Sum();
+            lblTotalSale.Text = "TOTAL SALES: ₱ " + sales.Select(x => x.TotalAmount).Sum().ToString("n2");
         }
 
         private void lblTotalSale_Click(object sender, EventArgs e)
