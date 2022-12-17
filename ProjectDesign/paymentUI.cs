@@ -222,7 +222,7 @@ namespace ProjectDesign
             int parsedValue;
             if (!int.TryParse(txtAmountPaid.Text, out parsedValue))
                 return;
-            txtChange.Text = (Convert.ToDecimal(txtTotalAmount.Text) - Convert.ToDecimal (txtAmountPaid.Text)).ToString("n2");  
+            txtChange.Text = (Convert.ToDecimal(txtAmountPaid.Text) - Convert.ToDecimal (txtTotalAmount.Text)).ToString("n2");  
         }
     }
  }

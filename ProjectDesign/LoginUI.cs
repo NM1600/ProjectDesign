@@ -60,6 +60,19 @@ namespace ProjectDesign
             MessageBox.Show("Login Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Dispose();
         }
+
+        private void txtPassword_MouseDown(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode)
+            {
+                LoginButton_Click(sender, e);
+            }
+        }
     }
 }
 

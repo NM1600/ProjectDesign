@@ -34,8 +34,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.HomeButton = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.CreateUserBtn = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -59,7 +57,6 @@
             this.siderbarpanel.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel11.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -76,7 +73,6 @@
             // 
             this.siderbarpanel.BackgroundImage = global::ProjectDesign.Properties.Resources.The_Insanity_Defense__Hardcover_;
             this.siderbarpanel.Controls.Add(this.panel3);
-            this.siderbarpanel.Controls.Add(this.panel11);
             this.siderbarpanel.Controls.Add(this.panel6);
             this.siderbarpanel.Controls.Add(this.panel7);
             this.siderbarpanel.Controls.Add(this.panel8);
@@ -134,39 +130,11 @@
             this.label1.Text = "Menu";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.Transparent;
-            this.panel11.Controls.Add(this.HomeButton);
-            this.panel11.Location = new System.Drawing.Point(3, 80);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(273, 40);
-            this.panel11.TabIndex = 6;
-            // 
-            // HomeButton
-            // 
-            this.HomeButton.AccessibleRole = System.Windows.Forms.AccessibleRole.Animation;
-            this.HomeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.HomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HomeButton.ForeColor = System.Drawing.Color.White;
-            this.HomeButton.Image = global::ProjectDesign.Properties.Resources.home_small_iCOn__1_21;
-            this.HomeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.HomeButton.Location = new System.Drawing.Point(-21, -10);
-            this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(304, 55);
-            this.HomeButton.TabIndex = 3;
-            this.HomeButton.Text = "                  Home";
-            this.HomeButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.HomeButton.UseVisualStyleBackColor = true;
-            this.HomeButton.Visible = false;
-            this.HomeButton.Click += new System.EventHandler(this.button2_Click);
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.Controls.Add(this.CreateUserBtn);
-            this.panel6.Location = new System.Drawing.Point(3, 126);
+            this.panel6.Location = new System.Drawing.Point(3, 80);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(273, 32);
             this.panel6.TabIndex = 5;
@@ -192,7 +160,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.Transparent;
             this.panel7.Controls.Add(this.btnCreateUser);
-            this.panel7.Location = new System.Drawing.Point(3, 164);
+            this.panel7.Location = new System.Drawing.Point(3, 118);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(273, 39);
             this.panel7.TabIndex = 4;
@@ -218,7 +186,7 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.Transparent;
             this.panel8.Controls.Add(this.btnProducts);
-            this.panel8.Location = new System.Drawing.Point(3, 209);
+            this.panel8.Location = new System.Drawing.Point(3, 163);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(273, 38);
             this.panel8.TabIndex = 5;
@@ -245,7 +213,7 @@
             this.panel9.BackColor = System.Drawing.Color.Transparent;
             this.panel9.Controls.Add(this.reportsbtn);
             this.panel9.Controls.Add(this.btnSales);
-            this.panel9.Location = new System.Drawing.Point(3, 253);
+            this.panel9.Location = new System.Drawing.Point(3, 207);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(273, 38);
             this.panel9.TabIndex = 5;
@@ -289,7 +257,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.Location = new System.Drawing.Point(3, 297);
+            this.panel5.Location = new System.Drawing.Point(3, 251);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(189, 51);
             this.panel5.TabIndex = 3;
@@ -297,7 +265,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Transparent;
-            this.panel10.Location = new System.Drawing.Point(3, 354);
+            this.panel10.Location = new System.Drawing.Point(3, 308);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(189, 51);
             this.panel10.TabIndex = 4;
@@ -305,7 +273,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.Transparent;
-            this.panel13.Location = new System.Drawing.Point(3, 411);
+            this.panel13.Location = new System.Drawing.Point(3, 365);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(189, 51);
             this.panel13.TabIndex = 5;
@@ -313,7 +281,7 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.Transparent;
-            this.panel14.Location = new System.Drawing.Point(3, 468);
+            this.panel14.Location = new System.Drawing.Point(3, 422);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(189, 51);
             this.panel14.TabIndex = 5;
@@ -321,7 +289,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Transparent;
-            this.panel15.Location = new System.Drawing.Point(3, 525);
+            this.panel15.Location = new System.Drawing.Point(3, 479);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(189, 51);
             this.panel15.TabIndex = 5;
@@ -329,7 +297,7 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.Transparent;
-            this.panel16.Location = new System.Drawing.Point(3, 582);
+            this.panel16.Location = new System.Drawing.Point(3, 536);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(189, 51);
             this.panel16.TabIndex = 6;
@@ -337,7 +305,7 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.Transparent;
-            this.panel17.Location = new System.Drawing.Point(3, 639);
+            this.panel17.Location = new System.Drawing.Point(3, 593);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(189, 51);
             this.panel17.TabIndex = 6;
@@ -345,7 +313,7 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.Transparent;
-            this.panel12.Location = new System.Drawing.Point(3, 696);
+            this.panel12.Location = new System.Drawing.Point(3, 650);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(189, 72);
             this.panel12.TabIndex = 7;
@@ -354,7 +322,7 @@
             // 
             this.panel22.BackColor = System.Drawing.Color.Transparent;
             this.panel22.Controls.Add(this.btnSignout);
-            this.panel22.Location = new System.Drawing.Point(3, 774);
+            this.panel22.Location = new System.Drawing.Point(3, 728);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(189, 46);
             this.panel22.TabIndex = 9;
@@ -381,7 +349,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Location = new System.Drawing.Point(3, 826);
+            this.panel4.Location = new System.Drawing.Point(3, 780);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(273, 52);
             this.panel4.TabIndex = 7;
@@ -406,7 +374,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel11.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
@@ -434,8 +401,6 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Button HomeButton;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel13;

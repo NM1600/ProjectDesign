@@ -52,7 +52,7 @@
             this.LoginButton.ForeColor = System.Drawing.Color.White;
             this.LoginButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.LoginButton.Location = new System.Drawing.Point(181, 352);
-            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(100, 34);
             this.LoginButton.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.Logo_display21;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(95, -14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(264, 96);
             this.pictureBox1.TabIndex = 1;
@@ -78,7 +78,7 @@
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.ForeColor = System.Drawing.Color.Black;
             this.txtUsername.Location = new System.Drawing.Point(69, 241);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(307, 37);
             this.txtUsername.TabIndex = 2;
@@ -90,12 +90,14 @@
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.Location = new System.Drawing.Point(69, 298);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(307, 40);
             this.txtPassword.TabIndex = 3;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
+            this.txtPassword.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtPassword_MouseDown);
             // 
             // usernamebox
             // 
@@ -103,7 +105,7 @@
             this.usernamebox.BackgroundImage = global::ProjectDesign.Properties.Resources.usernme_iCOn__1_;
             this.usernamebox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.usernamebox.Location = new System.Drawing.Point(73, 244);
-            this.usernamebox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.usernamebox.Margin = new System.Windows.Forms.Padding(4);
             this.usernamebox.Name = "usernamebox";
             this.usernamebox.Size = new System.Drawing.Size(37, 34);
             this.usernamebox.TabIndex = 4;
@@ -115,7 +117,7 @@
             this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.passwords_iCOn;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(69, 299);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(43, 38);
             this.pictureBox2.TabIndex = 5;
@@ -127,7 +129,7 @@
             this.pictureBox3.BackgroundImage = global::ProjectDesign.Properties.Resources.profile_iCOn__1_;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(141, 52);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(177, 162);
             this.pictureBox3.TabIndex = 6;
@@ -161,7 +163,7 @@
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";
