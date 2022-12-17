@@ -29,7 +29,7 @@ namespace ProjectDesign
 
         private void printDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-
+            e.Graphics.DrawString(txtResult.Text,new Font("Microsoft Sans Serif",18,FontStyle.Bold),Brushes.Black,new Point(10,10));  
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
