@@ -96,7 +96,7 @@
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(50, 1055);
+            this.siderbarpanel.Size = new System.Drawing.Size(50, 749);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -159,6 +159,7 @@
             this.HomeButton.Text = "                  Home";
             this.HomeButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Visible = false;
             this.HomeButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel6
@@ -390,7 +391,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.finalHomeUI__1_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(925, 1055);
+            this.ClientSize = new System.Drawing.Size(925, 749);
             this.Controls.Add(this.siderbarpanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

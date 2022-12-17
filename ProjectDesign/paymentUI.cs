@@ -22,13 +22,13 @@ namespace ProjectDesign
         public paymentUI()
         {
             InitializeComponent();
-            
+
         }
-        public paymentUI(Sales sale):this()
+        public paymentUI(Sales sale) : this()
         {
             btnSave.Text = "Update";
             this.sale = sale;
-            
+
         }
         private void paymentUI_Load(object sender, EventArgs e)
         {
@@ -36,8 +36,8 @@ namespace ProjectDesign
             cmd = new SqlCommand();
             cmd.Connection = conn;
             LoadProducts();
-            if(btnSave.Text == "Update")
-                DisplayRecords(); 
+            if (btnSave.Text == "Update")
+                DisplayRecords();
 
         }
         private void label1_Click(object sender, EventArgs e)
@@ -150,10 +150,10 @@ namespace ProjectDesign
             if (!int.TryParse(txtQuantity.Text, out parsedValue))
                 return;
             txtTotalAmount.Text = (Convert.ToDecimal(txtPrice.Text) * Convert.ToDecimal(txtQuantity.Text)).ToString("n2");
-            if(btnSave.Text == "Save")
+            if (btnSave.Text == "Save")
                 txtAvailableQuantity.Text = (products[cboProducts.SelectedIndex].Quantity - Convert.ToDecimal(txtQuantity.Text)).ToString("n0");
             else
-                txtAvailableQuantity.Text = (products[cboProducts.SelectedIndex].Quantity+sale.Quantity - Convert.ToDecimal(txtQuantity.Text)).ToString("n0");
+                txtAvailableQuantity.Text = (products[cboProducts.SelectedIndex].Quantity + sale.Quantity - Convert.ToDecimal(txtQuantity.Text)).ToString("n0");
         }
         private Sales GetData()
         {
@@ -169,5 +169,38 @@ namespace ProjectDesign
                 AmountPaid = Convert.ToDecimal(txtAmountPaid.Text)
             };
         }
+
+        private void txtTotalAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            txtResult.Clear();
+            txtResult.Text += "Sue Refreshment Receipt System";
+            txtResult.Text += "Date:" + dtTransDate.Text + "\n\n";
+
+            txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n\n";
+            txtResult.Text += "Products: " + cboProducts.Text + "\n\n";
+            txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n\n";
+            txtResult.Text += "Price: " + txtPrice + "\n\n";
+            txtResult.Text += "Total Amount " + txtTotalAmount + "\n\n";
+        }
+
     }
-}
+        }
+
+//        private void txtPrice_TextChanged(object sender, EventArgs e)
+//        {
+
+//        }
+//    }
+//}
+
+
