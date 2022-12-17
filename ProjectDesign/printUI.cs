@@ -40,15 +40,16 @@ namespace ProjectDesign
 
         private void printUI_Load(object sender, EventArgs e)
         {
-            txtResult.Text += "Sue Refreshment Receipt System";
-            txtResult.Text += "Date:" + sale.TransDate + "\n\n";
-
-            txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n\n";
-            txtResult.Text += "Products: " + sale.ProductName + "\n\n";
-            txtResult.Text += "Available Quantity: " + sale.Quantity + "\n\n";
-            txtResult.Text += "Price: " + sale.Price + "\n\n";
-            txtResult.Text += "Total Amount: " + sale.TotalAmount + "\n\n";
-            txtResult.Text += "Total Amount Paid: " + sale.AmountPaid + "\n\n";
+            txtResult.Text += "           Sue Refreshment Receipt System\n";
+            txtResult.Text += "-----------------------------------------------------\n";
+            txtResult.Text += "Date:" + sale.TransDate + "\n";
+            txtResult.Text += "Customer's Name: " + sale.CustomerName + "\n";
+            txtResult.Text += "-----------------------------------------------------\n";
+            txtResult.Text += "Products: " + sale.ProductName + "\n";
+            txtResult.Text += "Available Quantity: " + sale.Quantity + "\n";
+            txtResult.Text += "Price: " + sale.Price + "\n";
+            txtResult.Text += "Total Amount: " + sale.TotalAmount + "\n";
+            txtResult.Text += "Total Amount Paid: " + sale.AmountPaid + "\n";
         }
     }
 }
