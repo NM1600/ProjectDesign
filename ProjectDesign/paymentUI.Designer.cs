@@ -46,10 +46,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtAvailableQuantity = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnPrint = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnGenerate = new System.Windows.Forms.Button();
+            this.txtChange = new System.Windows.Forms.TextBox();
             this.printDocument = new System.Windows.Forms.PrintDialog();
             this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -186,6 +184,7 @@
             this.txtAmountPaid.Name = "txtAmountPaid";
             this.txtAmountPaid.Size = new System.Drawing.Size(121, 26);
             this.txtAmountPaid.TabIndex = 14;
+            this.txtAmountPaid.TextChanged += new System.EventHandler(this.txtAmountPaid_TextChanged);
             // 
             // btnSave
             // 
@@ -233,20 +232,6 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "Available Quantity:";
             // 
-            // btnPrint
-            // 
-            this.btnPrint.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.ForeColor = System.Drawing.Color.White;
-            this.btnPrint.Location = new System.Drawing.Point(593, 399);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(118, 38);
-            this.btnPrint.TabIndex = 18;
-            this.btnPrint.Text = "Print";
-            this.btnPrint.UseVisualStyleBackColor = false;
-            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -258,28 +243,15 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Change:";
             // 
-            // textBox1
+            // txtChange
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(190, 350);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 19);
-            this.textBox1.TabIndex = 20;
-            // 
-            // btnGenerate
-            // 
-            this.btnGenerate.BackColor = System.Drawing.Color.Brown;
-            this.btnGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.ForeColor = System.Drawing.Color.White;
-            this.btnGenerate.Location = new System.Drawing.Point(443, 399);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(118, 38);
-            this.btnGenerate.TabIndex = 21;
-            this.btnGenerate.Text = "Generate ";
-            this.btnGenerate.UseVisualStyleBackColor = false;
-            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+            this.txtChange.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtChange.Location = new System.Drawing.Point(190, 351);
+            this.txtChange.Name = "txtChange";
+            this.txtChange.Size = new System.Drawing.Size(121, 19);
+            this.txtChange.TabIndex = 20;
+            this.txtChange.TextChanged += new System.EventHandler(this.txtChange_TextChanged);
             // 
             // printDocument
             // 
@@ -311,11 +283,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(744, 465);
-            this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(403, 465);
+            this.Controls.Add(this.txtChange);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtAmountPaid);
             this.Controls.Add(this.label6);
@@ -364,10 +334,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtAvailableQuantity;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnGenerate;
+        private System.Windows.Forms.TextBox txtChange;
         private System.Windows.Forms.PrintDialog printDocument;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
     }
