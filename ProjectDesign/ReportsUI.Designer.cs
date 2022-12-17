@@ -29,19 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblTotalSale = new System.Windows.Forms.Label();
             this.btnGo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dtTo = new System.Windows.Forms.DateTimePicker();
             this.dtFrom = new System.Windows.Forms.DateTimePicker();
             this.dtgRecords = new System.Windows.Forms.DataGridView();
-            this.lblTotalSale = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -49,7 +47,6 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
             this.panel1.Controls.Add(this.lblTotalSale);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnGo);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -58,28 +55,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1370, 80);
+            this.panel1.Size = new System.Drawing.Size(1834, 80);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox2
+            // lblTotalSale
             // 
-            this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.user___4_;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(921, -101);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(519, 313);
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.user___4_;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(1542, -49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(445, 206);
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
+            this.lblTotalSale.AutoSize = true;
+            this.lblTotalSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblTotalSale.Location = new System.Drawing.Point(440, 27);
+            this.lblTotalSale.Name = "lblTotalSale";
+            this.lblTotalSale.Size = new System.Drawing.Size(237, 29);
+            this.lblTotalSale.TabIndex = 19;
+            this.lblTotalSale.Text = "TOTAL SALES : 0.00";
             // 
             // btnGo
             // 
@@ -139,25 +126,25 @@
             this.dtgRecords.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgRecords.Location = new System.Drawing.Point(0, 80);
             this.dtgRecords.Name = "dtgRecords";
-            this.dtgRecords.Size = new System.Drawing.Size(1370, 669);
+            this.dtgRecords.Size = new System.Drawing.Size(1834, 669);
             this.dtgRecords.TabIndex = 1;
             // 
-            // lblTotalSale
+            // pictureBox2
             // 
-            this.lblTotalSale.AutoSize = true;
-            this.lblTotalSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.lblTotalSale.Location = new System.Drawing.Point(440, 27);
-            this.lblTotalSale.Name = "lblTotalSale";
-            this.lblTotalSale.Size = new System.Drawing.Size(237, 29);
-            this.lblTotalSale.TabIndex = 19;
-            this.lblTotalSale.Text = "TOTAL SALES : 0.00";
+            this.pictureBox2.BackgroundImage = global::ProjectDesign.Properties.Resources.user___4_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(1019, -97);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(519, 313);
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
             // 
             // ReportsUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1834, 749);
             this.Controls.Add(this.dtgRecords);
             this.Controls.Add(this.panel1);
             this.Name = "ReportsUI";
@@ -166,9 +153,8 @@
             this.Load += new System.EventHandler(this.ReportsUI_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -180,7 +166,6 @@
         private System.Windows.Forms.DateTimePicker dtFrom;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.DataGridView dtgRecords;

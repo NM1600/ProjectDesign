@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paymentUI));
             this.dtTransDate = new System.Windows.Forms.DateTimePicker();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.cboProducts = new System.Windows.Forms.ComboBox();
@@ -51,6 +52,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
+            this.printDocument = new System.Windows.Forms.PrintDialog();
+            this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,7 +93,6 @@
             this.txtPrice.ReadOnly = true;
             this.txtPrice.Size = new System.Drawing.Size(121, 26);
             this.txtPrice.TabIndex = 4;
-            //this.txtPrice.TextChanged += new System.EventHandler(this.txtPrice_TextChanged);
             // 
             // txtQuantity
             // 
@@ -262,7 +264,7 @@
             this.btnPrint.TabIndex = 18;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = false;
-            this.btnPrint.Click += new System.EventHandler(this.button1_Click);
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // label9
             // 
@@ -297,6 +299,21 @@
             this.btnGenerate.Text = "Generate ";
             this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+            // 
+            // printDocument
+            // 
+            this.printDocument.UseEXDialog = true;
+            // 
+            // printPreviewDialog
+            // 
+            this.printPreviewDialog.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog.Enabled = true;
+            this.printPreviewDialog.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog.Icon")));
+            this.printPreviewDialog.Name = "printPreviewDialog";
+            this.printPreviewDialog.Visible = false;
+            this.printPreviewDialog.Load += new System.EventHandler(this.printPreviewDialog_Load);
             // 
             // paymentUI
             // 
@@ -362,5 +379,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnGenerate;
+        private System.Windows.Forms.PrintDialog printDocument;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
     }
 }

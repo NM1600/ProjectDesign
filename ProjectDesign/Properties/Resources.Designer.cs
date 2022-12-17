@@ -1199,5 +1199,15 @@ namespace ProjectDesign.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellowMainUIcover {
+            get {
+                object obj = ResourceManager.GetObject("yellowMainUIcover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

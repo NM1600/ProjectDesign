@@ -189,12 +189,21 @@ namespace ProjectDesign
             txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n\n";
             txtResult.Text += "Products: " + cboProducts.Text + "\n\n";
             txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n\n";
-            txtResult.Text += "Price: " + txtPrice + "\n\n";
-            txtResult.Text += "Total Amount " + txtTotalAmount + "\n\n";
+            txtResult.Text += "Price: " + txtPrice.Text + "\n\n";
+            txtResult.Text += "Total Amount " + txtTotalAmount.Text + "\n\n";
         }
 
-    }
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            //printPreviewDialog.printDocument = printPayment
         }
+
+        private void printPreviewDialog_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+ }
 
 //        private void txtPrice_TextChanged(object sender, EventArgs e)
 //        {

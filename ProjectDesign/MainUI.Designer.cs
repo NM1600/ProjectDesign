@@ -389,7 +389,7 @@
             // MainUI
             // 
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::ProjectDesign.Properties.Resources.finalHomeUI__1_1;
+            this.BackgroundImage = global::ProjectDesign.Properties.Resources.yellowMainUIcover;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(925, 749);
             this.Controls.Add(this.siderbarpanel);
