@@ -38,9 +38,11 @@
             // txtResult
             // 
             this.txtResult.BackColor = System.Drawing.Color.White;
-            this.txtResult.Location = new System.Drawing.Point(8, 10);
+            this.txtResult.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Location = new System.Drawing.Point(11, 12);
+            this.txtResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(354, 334);
+            this.txtResult.Size = new System.Drawing.Size(471, 410);
             this.txtResult.TabIndex = 0;
             this.txtResult.Text = "";
             this.txtResult.TextChanged += new System.EventHandler(this.txtResult_TextChanged);
@@ -51,9 +53,10 @@
             this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.ForeColor = System.Drawing.Color.White;
-            this.btnPrint.Location = new System.Drawing.Point(125, 366);
+            this.btnPrint.Location = new System.Drawing.Point(167, 450);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(118, 38);
+            this.btnPrint.Size = new System.Drawing.Size(157, 47);
             this.btnPrint.TabIndex = 19;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = false;
@@ -75,13 +78,14 @@
             // 
             // printUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(226)))), ((int)(((byte)(237)))));
-            this.ClientSize = new System.Drawing.Size(374, 416);
+            this.ClientSize = new System.Drawing.Size(499, 512);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.txtResult);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "printUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "printUI";

@@ -350,6 +350,8 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\paymentLogo1.png" />
+    <None Include="Resources\salesTransanLogo.png" />
     <None Include="Resources\paymentLogo.png" />
     <None Include="Resources\yellowMainUIcover.png" />
     <None Include="Resources\addProductpic.png" />

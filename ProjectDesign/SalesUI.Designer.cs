@@ -32,23 +32,23 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgRecords = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PrintBtn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btnSalesTransaction = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.PrintBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,8 +59,9 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1899, 609);
+            this.panel1.Size = new System.Drawing.Size(1924, 750);
             this.panel1.TabIndex = 2;
             // 
             // panel3
@@ -68,9 +69,10 @@
             this.panel3.Controls.Add(this.dtgRecords);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 62);
+            this.panel3.Location = new System.Drawing.Point(0, 76);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1899, 547);
+            this.panel3.Size = new System.Drawing.Size(1924, 674);
             this.panel3.TabIndex = 1;
             // 
             // dtgRecords
@@ -79,9 +81,10 @@
             this.dtgRecords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgRecords.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgRecords.Location = new System.Drawing.Point(0, 0);
+            this.dtgRecords.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgRecords.Name = "dtgRecords";
             this.dtgRecords.RowHeadersWidth = 51;
-            this.dtgRecords.Size = new System.Drawing.Size(1899, 547);
+            this.dtgRecords.Size = new System.Drawing.Size(1924, 674);
             this.dtgRecords.TabIndex = 0;
             // 
             // panel2
@@ -95,35 +98,74 @@
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1899, 62);
+            this.panel2.Size = new System.Drawing.Size(1924, 76);
             this.panel2.TabIndex = 0;
             // 
-            // panel7
+            // panel5
             // 
-            this.panel7.Controls.Add(this.button1);
-            this.panel7.Location = new System.Drawing.Point(94, 13);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(92, 35);
-            this.panel7.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.btnSalesTransaction);
-            this.panel4.Location = new System.Drawing.Point(-17, 8);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(105, 54);
-            this.panel4.TabIndex = 0;
+            this.panel5.Controls.Add(this.PrintBtn);
+            this.panel5.Location = new System.Drawing.Point(351, 17);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(123, 43);
+            this.panel5.TabIndex = 11;
             // 
             // panel8
             // 
             this.panel8.Controls.Add(this.button4);
-            this.panel8.Location = new System.Drawing.Point(177, 14);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Location = new System.Drawing.Point(236, 17);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(92, 35);
+            this.panel8.Size = new System.Drawing.Size(123, 43);
             this.panel8.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.btnSalesTransaction);
+            this.panel4.Location = new System.Drawing.Point(-23, 10);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(140, 66);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.button1);
+            this.panel7.Location = new System.Drawing.Point(125, 16);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(123, 43);
+            this.panel7.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.salesTransanLogo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(1561, -70);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(354, 222);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // PrintBtn
+            // 
+            this.PrintBtn.BackColor = System.Drawing.Color.Transparent;
+            this.PrintBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.PrintBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrintBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
+            this.PrintBtn.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
+            this.PrintBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.PrintBtn.Location = new System.Drawing.Point(-35, -4);
+            this.PrintBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.PrintBtn.Name = "PrintBtn";
+            this.PrintBtn.Size = new System.Drawing.Size(181, 50);
+            this.PrintBtn.TabIndex = 10;
+            this.PrintBtn.Text = "    Print";
+            this.PrintBtn.UseVisualStyleBackColor = false;
+            this.PrintBtn.Click += new System.EventHandler(this.PrintBtn_Click_1);
             // 
             // button4
             // 
@@ -133,9 +175,10 @@
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
             this.button4.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(-26, -3);
+            this.button4.Location = new System.Drawing.Point(-35, -4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(136, 41);
+            this.button4.Size = new System.Drawing.Size(181, 50);
             this.button4.TabIndex = 10;
             this.button4.Text = "       Delete";
             this.button4.UseVisualStyleBackColor = false;
@@ -149,9 +192,10 @@
             this.btnSalesTransaction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
             this.btnSalesTransaction.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
             this.btnSalesTransaction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalesTransaction.Location = new System.Drawing.Point(-45, -13);
+            this.btnSalesTransaction.Location = new System.Drawing.Point(-60, -16);
+            this.btnSalesTransaction.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalesTransaction.Name = "btnSalesTransaction";
-            this.btnSalesTransaction.Size = new System.Drawing.Size(156, 71);
+            this.btnSalesTransaction.Size = new System.Drawing.Size(208, 87);
             this.btnSalesTransaction.TabIndex = 1;
             this.btnSalesTransaction.Text = "                           Add";
             this.btnSalesTransaction.UseVisualStyleBackColor = false;
@@ -165,55 +209,24 @@
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
             this.button1.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(-22, -2);
+            this.button1.Location = new System.Drawing.Point(-29, -2);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 41);
+            this.button1.Size = new System.Drawing.Size(181, 50);
             this.button1.TabIndex = 11;
             this.button1.Text = "   Edit";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.PrintBtn);
-            this.panel5.Location = new System.Drawing.Point(263, 14);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(92, 35);
-            this.panel5.TabIndex = 11;
-            // 
-            // PrintBtn
-            // 
-            this.PrintBtn.BackColor = System.Drawing.Color.Transparent;
-            this.PrintBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.PrintBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(31)))), ((int)(((byte)(51)))));
-            this.PrintBtn.Image = global::ProjectDesign.Properties.Resources.Add_icon1;
-            this.PrintBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.PrintBtn.Location = new System.Drawing.Point(-26, -3);
-            this.PrintBtn.Name = "PrintBtn";
-            this.PrintBtn.Size = new System.Drawing.Size(136, 41);
-            this.PrintBtn.TabIndex = 10;
-            this.PrintBtn.Text = "    Print";
-            this.PrintBtn.UseVisualStyleBackColor = false;
-            this.PrintBtn.Click += new System.EventHandler(this.PrintBtn_Click_1);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(1384, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // SalesUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1899, 609);
+            this.ClientSize = new System.Drawing.Size(1924, 750);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SalesUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SalesUI";
@@ -223,10 +236,10 @@
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgRecords)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
