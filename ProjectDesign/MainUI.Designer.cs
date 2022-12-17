@@ -96,7 +96,7 @@
             this.siderbarpanel.MaximumSize = new System.Drawing.Size(200, 0);
             this.siderbarpanel.MinimumSize = new System.Drawing.Size(50, 0);
             this.siderbarpanel.Name = "siderbarpanel";
-            this.siderbarpanel.Size = new System.Drawing.Size(50, 749);
+            this.siderbarpanel.Size = new System.Drawing.Size(50, 890);
             this.siderbarpanel.TabIndex = 1;
             // 
             // panel3
@@ -391,7 +391,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProjectDesign.Properties.Resources.yellowMainUIcover;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(925, 749);
+            this.ClientSize = new System.Drawing.Size(925, 890);
             this.Controls.Add(this.siderbarpanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
