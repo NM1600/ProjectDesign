@@ -141,5 +141,23 @@ namespace ProjectDesign
             conn.Close();
         }
 
+        private void PrintBtn_Click_1(object sender, EventArgs e)
+        {
+            Sales data = GetData(dtgRecords.CurrentRow);
+            new printUI(data).ShowDialog();
+            FetchData();
+        }
+        public Sales GetData(DataGridViewRow row) {
+            return new Sales
+            {
+               TransDate = Convert.ToDateTime(row.Cells["TransDate"].Value),
+               CustomerName = Convert.ToString(row.Cells["CustomerName"].Value),
+               Quantity = Convert.ToInt32(row.Cells["Quantity"].Value),
+               ProductName = Convert.ToString(row.Cells["ProductName"].Value),
+               Price = Convert.ToDecimal(row.Cells["Price"].Value),
+               TotalAmount = Convert.ToDecimal(row.Cells["TotalAmount"].Value),
+               AmountPaid = Convert.ToDecimal(row.Cells["AmountPaid"].Value)
+            };
+        }
     }
 }

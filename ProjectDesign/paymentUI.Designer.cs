@@ -43,17 +43,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtAmountPaid = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtAvailableQuantity = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtResult = new System.Windows.Forms.RichTextBox();
             this.btnPrint = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.printDocument = new System.Windows.Forms.PrintDialog();
             this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -202,16 +201,6 @@
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.user___3_;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-150, -58);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(454, 187);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -243,14 +232,6 @@
             this.label8.Size = new System.Drawing.Size(158, 20);
             this.label8.TabIndex = 8;
             this.label8.Text = "Available Quantity:";
-            // 
-            // txtResult
-            // 
-            this.txtResult.Location = new System.Drawing.Point(408, 54);
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(324, 333);
-            this.txtResult.TabIndex = 17;
-            this.txtResult.Text = "";
             // 
             // btnPrint
             // 
@@ -315,6 +296,16 @@
             this.printPreviewDialog.Visible = false;
             this.printPreviewDialog.Load += new System.EventHandler(this.printPreviewDialog_Load);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::ProjectDesign.Properties.Resources.user___3_;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(-150, -58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(454, 187);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // paymentUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -325,7 +316,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnPrint);
-            this.Controls.Add(this.txtResult);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtAmountPaid);
             this.Controls.Add(this.label6);
@@ -374,7 +364,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtAvailableQuantity;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RichTextBox txtResult;
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;

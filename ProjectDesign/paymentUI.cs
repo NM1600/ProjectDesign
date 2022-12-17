@@ -182,15 +182,15 @@ namespace ProjectDesign
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-            txtResult.Clear();
-            txtResult.Text += "Sue Refreshment Receipt System";
-            txtResult.Text += "Date:" + dtTransDate.Text + "\n\n";
+            //txtResult.Clear();
+            //txtResult.Text += "Sue Refreshment Receipt System";
+            //txtResult.Text += "Date:" + dtTransDate.Text + "\n\n";
 
-            txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n\n";
-            txtResult.Text += "Products: " + cboProducts.Text + "\n\n";
-            txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n\n";
-            txtResult.Text += "Price: " + txtPrice.Text + "\n\n";
-            txtResult.Text += "Total Amount " + txtTotalAmount.Text + "\n\n";
+            //txtResult.Text += "Customer's Name: " + txtCustomerName.Text + "\n\n";
+            //txtResult.Text += "Products: " + cboProducts.Text + "\n\n";
+            //txtResult.Text += "Available Quantity: " + txtQuantity.Text + "\n\n";
+            //txtResult.Text += "Price: " + txtPrice.Text + "\n\n";
+            //txtResult.Text += "Total Amount " + txtTotalAmount.Text + "\n\n";
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
