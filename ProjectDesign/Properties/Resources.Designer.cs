@@ -723,6 +723,16 @@ namespace ProjectDesign.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paymentLogo1 {
+            get {
+                object obj = ResourceManager.GetObject("paymentLogo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pepsiCokeLogo {
             get {
                 object obj = ResourceManager.GetObject("pepsiCokeLogo", resourceCulture);
@@ -946,6 +956,16 @@ namespace ProjectDesign.Properties {
         internal static System.Drawing.Bitmap sales_small_iiicom2 {
             get {
                 object obj = ResourceManager.GetObject("sales small iiicom2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap salesTransanLogo {
+            get {
+                object obj = ResourceManager.GetObject("salesTransanLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
