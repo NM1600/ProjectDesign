@@ -26,9 +26,15 @@ namespace ProjectDesign
             
         }
 
-        public void SetIsLoggedIn(bool isLoggedIn)
+        public void SetIsLoggedIn(bool isLoggedIn, string userType)
         {
             this.isLoggedIn = isLoggedIn;
+            if (userType != "admin")
+            {
+                CreateUserBtn.Visible = false;
+                btnSales.Visible = false;
+                reportsbtn.Visible = false;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

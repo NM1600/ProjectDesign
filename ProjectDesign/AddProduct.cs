@@ -24,6 +24,7 @@ namespace ProjectDesign
         public AddProduct(Products product):this()
         {
             btnSave.Text = "Update";
+            txtAddStock.ReadOnly = false;
             this.product = product;
             DisplayRecords();
         }
@@ -90,6 +91,20 @@ namespace ProjectDesign
                 Price = Convert.ToDecimal(txtPrice.Text),
             };
         }
-        
+
+        private void txtAddStock_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtAddStock_TextChanged_1(object sender, EventArgs e)
+        {
+            if (txtAddStock.Text == "")
+                return;
+            int parsedValue;
+            if (!int.TryParse(txtAddStock.Text, out parsedValue))
+                return;
+            txtQuantity.Text = (product.Quantity + Convert.ToDecimal(txtAddStock.Text)).ToString("n0");
+        }
     }
 }

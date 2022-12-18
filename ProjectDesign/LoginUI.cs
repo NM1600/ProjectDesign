@@ -18,6 +18,7 @@ namespace ProjectDesign
         MainUI ui;
         SqlConnection conn;
         SqlCommand cmd;
+        List<Users> users;
         public LoginUI()
         {
             InitializeComponent();
@@ -56,7 +57,22 @@ namespace ProjectDesign
                 MessageBox.Show("Incorrect Username/Password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            ui.SetIsLoggedIn(true);
+            users = new List<Users>();
+            for (int i = 0; i < table.Rows.Count; i++)
+            {
+                Users user = new Users();
+                user.UserId = Convert.ToInt32(table.Rows[i]["UserId"]);
+                user.Username = Convert.ToString(table.Rows[i]["Username"]);
+                user.Password = Convert.ToString(table.Rows[i]["Password"]);
+                user.Firstname = Convert.ToString(table.Rows[i]["Firstname"]);
+                user.Lastname = Convert.ToString(table.Rows[i]["Lastname"]);
+                user.UserType = Convert.ToString(table.Rows[i]["UserType"]);
+                user.Age = Convert.ToString(table.Rows[i]["Age"]);
+                user.Sex = Convert.ToString(table.Rows[i]["Sex"]);
+                user.Position = Convert.ToString(table.Rows[i]["Position"]);
+                users.Add(user);
+            }
+            ui.SetIsLoggedIn(true, users[0].UserType);
             MessageBox.Show("Login Successful!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Dispose();
         }
